@@ -1,0 +1,446 @@
+{
+    "authors" : [
+        {
+            "name": "Brett Jones",
+            "website": "https://brettrjones.com/"
+        },
+        {
+            "name": "Ce Liu",
+            "website": "https://people.csail.mit.edu/celiu/"
+        },
+        {
+            "name": "David A. Forsyth",
+            "website": "http://luthuli.cs.uiuc.edu/~daf/"
+        },
+        {
+            "name": "Derek Hoiem",
+            "website": "http://dhoiem.cs.illinois.edu/"
+        },
+        {
+            "name": "Hailin Jin",
+            "website": "https://sites.google.com/view/hailinjin"
+        },
+        {
+            "name": "Jonathan T. Barron",
+            "website": "https://jonbarron.info"
+        },
+        {
+            "name": "Kalyan Sunkavalli",
+            "website": "http://www.eecs.harvard.edu/~kalyans/"
+        },
+        {
+            "name": "Kevin Karsch",
+            "website": "https://kevinkarsch.com"
+        },
+        {
+            "name": "Mani Golparvar-Fard",
+            "website": "http://raamac.cee.illinois.edu/faculty"
+        },
+        {
+            "name": "Nathan Carr",
+            "website": "https://research.adobe.com/person/nathan-carr/"
+        },
+        {
+            "name": "Pulkit Budhiraja",
+            "website": "http://www.pulkitbudhiraja.com/"
+        },
+        {
+            "name": "Rajinder Sodhi",
+            "website": "http://rsodhi.com/"
+        },
+        {
+            "name": "Sing Bing Kang",
+            "website": "http://www.singbingkang.com/"
+        },
+        {
+            "name": "Varsha Hedau",
+            "website": "http://vision.cs.uiuc.edu/~vhedau2/"
+        },
+        {
+            "name": "Ye Duan",
+            "website": "http://web.missouri.edu/~duanye/"
+        },
+        {
+            "name": "Zicheng Liao",
+            "website": "http://zichengl.net/"
+        }
+    ],
+    "papers" : [
+        {
+            "title": "An Approximate Shading Model with Detail Decomposition for Object Relighting",
+            "authors": ["Zicheng Liao", "Kevin Karsch", "Hongyi Zhang", "David A. Forsyth"],
+            "venue": "IJCV 2019",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1804.07514",
+                "repImage": "./resources/papers/2019-ijcv/shadingdecomp-ijcv19.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2019-ijcv/shadingdecomp-ijcv19.bib"
+                }
+            }
+        },
+        {
+            "title": "Lightform: Procedural Effects for Projected AR",
+            "authors": ["Brittany Factura", "Laura LaPerche", "Phil Reyneri", "Brett Jones", "Kevin Karsch"],
+            "venue": "SIGGRAPH (Emerging Tech) 2018",
+            "links": {
+                "paper": "./resources/papers/2018-siggraph_etech/lightform-etech18.pdf",
+                "repImage": "./resources/papers/2018-siggraph_etech/lightform-etech18.jpg",
+                "extras": {
+                    "video": "./resources/papers/2018-siggraph_etech/lightform-etech18.mp4",
+                    "bibtex": "./resources/papers/2018-siggraph_etech/lightform-etech18.bib"
+                }
+            }
+        },
+        {
+            "title": "Integrating videos with LIDAR scans for virtual reality",
+            "authors": ["Giang Bui", "Brittany Morago", "Truc Le", "Kevin Karsch", "Zheyu Lu", "Ye Duan"],
+            "venue": "VR 2016",
+            "links": {
+                "paper": "",
+                "repImage": "./resources/papers/2016-vr/lidar-vr16.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2016-vr/lidar-vr16.bib"
+                }
+            }
+        },
+        {
+            "title": "Projectibles: Optimizing Surface Color For Projection",
+            "authors": ["Brett Jones", "Rajinder Sodhi", "Pulkit Budhiraja", "Kevin Karsch", "Brian Bailey", "David A. Forsyth"],
+            "venue": "UIST 2015",
+            "links": {
+                "paper": "./resources/papers/2015-uist/projectibles-uist15.pdf",
+                "repImage": "./resources/papers/2015-uist/projectibles-uist15.jpg",
+                "extras": {
+                    "video": "https://www.youtube.com/watch?v=Zid8X42_BUY",
+                    "video2": "http://youtu.be/GiBBtVaxi4Y",
+                    "bibtex": "./resources/papers/2015-uist/projectibles-uist15.bib"
+                }
+            }
+        },
+        {
+            "title": "An Approximate Shading Model for Object Relighting",
+            "authors": ["Zicheng Liao", "Kevin Karsch", "David A. Forsyth"],
+            "venue": "CVPR 2015",
+            "links": {
+                "paper": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.pdf",
+                "repImage": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.jpg",
+                "extras": {
+                    "supplemental": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp-supp.pdf",
+                    "bibtex": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.bib"
+                }
+            }
+        },
+        {
+            "title": "Inverse Rendering Techniques for Physically Grounded Image Editing",
+            "authors": ["Kevin Karsch"],
+            "venue": "PhD Thesis (2015)",
+            "links": {
+                "paper": "./resources/papers/2015-thesis/thesis-KevinKarsch.pdf",
+                "repImage": "./resources/papers/2015-thesis/thesis-KevinKarsch.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2015-thesis/thesis-KevinKarsch.bib"
+                }
+            }
+        },
+        {
+            "title": "Where's My Drink? Enabling Peripheral Real World Interactions While Using HMDs",
+            "authors": ["Pulkit Budhiraja", "Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Brian Bailey", "David A. Forsyth"],
+            "venue": "Tech Report (2015)",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1502.04744",
+                "repImage": "./resources/papers/2015-arxiv/tr15-drinks-teaser.jpg",
+                "extras": {
+                    "video": "TODO",
+                    "bibtex": "./resources/papers/2015-arxiv/tr15-drinks-teaser.bib"
+                }
+            }
+        },
+        {
+            "title": "DepthTransfer: Depth extraction from video using non-parametric sampling",
+            "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
+            "venue": "TPAMI 2014",
+            "links": {
+                "paper": "./resources/papers/2014-tpami/tpami14-depthtransfer.pdf",
+                "repImage": "./resources/papers/2014-tpami/tpami14-depthtransfer.png",
+                "extras": {
+                    "code" : "https://github.com/kevinkarsch/depth-transfer",
+                    "video": "https://vimeo.com/46404667",
+                    "supplemental": "./resources/papers/2012-eccv/eccv12-depthtransfer-supp.pdf",
+                    "slides": "./resources/papers/2012-eccv/eccv12-depthtransfer-slides.pdf",
+                    "bibtex": "./resources/papers/2014-tpami/tpami14-depthtransfer.bib"
+                }
+            }
+        },
+        {
+            "title": "Automatic Scene Inference for 3D Object Compositing",
+            "authors": ["Kevin Karsch", "Kalyan Sunkavalli", "Sunil Hadap", "Nathan Carr", "Hailin Jin", "Raphael Fonte", "Michael Sittig", "David A. Forsyth"],
+            "venue": "TOG 2014 (Presented at SIGGRAPH 2014)",
+            "links": {
+                "paper": "./resources/papers/2014-tog/tog14-auto_illum.pdf",
+                "repImage": "./resources/papers/2014-tog/tog14-auto_illum.jpg",
+                "extras": {
+                    "video": "https://vimeo.com/101866891",
+                    "supplemental": "./resources/papers/2014-tog/tog14-auto_illum-supp.pdf",
+                    "slides": "./resources/papers/2014-tog/tog14-auto_illum-ppt.pdf",
+                    "data": "https://github.com/kevinkarsch/auto-scene-inference-data",
+                    "bibtex": "./resources/papers/2014-tog/tog14-auto_illum.bib"
+                }
+            }
+        },
+        {
+            "title": "ConstructAide: Analyzing and Visualizing Construction Sites through Photographs and Building Models",
+            "authors": ["Kevin Karsch", "Mani Golparvar-Fard", "David A. Forsyth"],
+            "venue": "SIGGRAPH Asia 2014",
+            "links": {
+                "paper": "./resources/papers/2014-sa/sa14-constructaide.pdf",
+                "repImage": "./resources/papers/2014-sa/sa14-constructaide.jpg",
+                "extras": {
+                    "video": "https://vimeo.com/106556251",
+                    "video2": "https://vimeo.com/106554473",
+                    "supplemental": "./resources/papers/2014-sa/sa14-constructaide-supp.pdf",
+                    "slides": "./resources/papers/2014-sa/sa14-constructaide-slides.pdf",
+                    "bibtex": "./resources/papers/2014-sa/sa14-constructaide.bib"
+                }
+            }
+        },
+        {
+            "title": "Blind Recovery of Spatially Varying Reflectance from a Single Image",
+            "authors": ["Kevin Karsch", "David A. Forsyth"],
+            "venue": "SIGGRAPH Asia 2014 Workshop on Indoor Scene Understanding",
+            "links": {
+                "paper": "./resources/papers/2014-sa_isu/sa14_isu-materials.pdf",
+                "repImage": "./resources/papers/2014-sa_isu/sa14_isu-materials.jpg",
+                "extras": {
+                    "supplemental": "./resources/papers/2014-sa_isu/sa14_isu-materials-supp.pdf",
+                    "slides": "./resources/papers/2014-sa_isu/sa14_isu-materials-pptx.pdf",
+                    "bibtex": "./resources/papers/2014-sa_isu/sa14_isu-materials.bib"
+                }
+            }
+        },
+        {
+            "title": "Boundary Cues for 3D Object Shape Recovery",
+            "authors": ["Kevin Karsch", "Zicheng Liao", "Jason Rock", "Jonathan T. Barron", "Derek Hoiem"],
+            "venue": "CVPR 2013",
+            "links": {
+                "paper": "./resources/papers/2013-cvpr/cvpr13-boundarycues.pdf",
+                "repImage": "./resources/papers/2013-cvpr/cvpr13-boundarycues.png",
+                "extras": {
+                    "code": "https://github.com/kevinkarsch/boundary-cues",
+                    "supplemental": "./resources/papers/2013-cvpr/cvpr13-boundarycues-supp.pdf",
+                    "poster": "./resources/papers/2013-cvpr/cvpr13-boundarycues-poster.pdf",
+                    "bibtex": "./resources/papers/2013-cvpr/cvpr13-boundarycues.bib"
+                }
+            }
+        },
+        {
+            "title": "Depth Extraction from Video Using Non-parametric Sampling",
+            "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
+            "venue": "ECCV 2012",
+            "links": {
+                "paper": "./resources/papers/2012-eccv/eccv12-depthtransfer.pdf",
+                "repImage": "./resources/papers/2012-eccv/eccv12-depthtransfer.png"
+            },
+            "notes": "This paper is subsumed by the journal version (Depth Transfer - TPAMI'14)"
+        },
+        {
+            "title": "Rendering synthetic objects into legacy photographs",
+            "authors": ["Kevin Karsch", "Varsha Hedau", "David A. Forsyth", "Derek Hoiem"],
+            "venue": "SIGGRAPH Asia 2011",
+            "links": {
+                "paper": "./resources/papers/2011-sa/sa11.pdf",
+                "repImage": "./resources/papers/2011-sa/sa11.jpg",
+                "extras": {
+                    "code": "https://github.com/kevinkarsch/rsolp",
+                    "video": "https://vimeo.com/28962540",
+                    "slides": "./resources/papers/2011-sa/sa11pptx.pdf",
+                    "bibtex": "./resources/papers/2011-sa/sa11.bib"
+                }
+            }
+        },
+        {
+            "title": "Snaxels on a plane",
+            "authors": ["Kevin Karsch", "John C. Hart"],
+            "venue": "NPAR 2011",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1904.09530",
+                "repImage": "./resources/papers/2011-npar/npar11.png",
+                "extras": {
+                    "code": "https://github.com/kevinkarsch/snaxels",
+                    "video": "https://vimeo.com/26851838",
+                    "slides": "./resources/papers/2011-npar/npar11_pptx.pdf",
+                    "bibtex": "./resources/papers/2011-npar/npar11.bib"
+                }
+            }
+        },
+        {
+            "title": "User interface design for military AR applications",
+            "authors": ["Mark A. Livingston", "Zhuming Ai", "Kevin Karsch", "Gregory O. Gibson"],
+            "venue": "VR 2011",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1904.09529",
+                "repImage": "./resources/papers/2011-vr/vr11.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2011-vr/vr11.bib"
+                }
+            }
+        },
+        {
+            "title": "Semi-automatic 3D segmentation of brain structures from MRI",
+            "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
+            "venue": "Int J Data Min Bioinform",
+            "links": {
+                "paper": "./resources/papers/2011-ijdmb/ijdmb11.pdf",
+                "repImage": "./resources/papers/2011-ijdmb/ijdmb11.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2011-ijdmb/ijdmb11.bib"
+                }
+            }
+        },
+        {
+            "title": "Shape analysis of corpus callosum in phenylketonuria using a new 3D correspondence algorithm",
+            "authors": ["Qing He", "Shawn E. Christ", "Kevin Karsch", "Dawn Peck", "Ye Duan"],
+            "venue": "SPIE Medical Imaging 2010",
+            "links": {
+                "paper": "./resources/papers/2010-spie/he-spie-10.pdf",
+                "repImage": "./resources/papers/2010-spie/he-spie-10.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2010-spie/he-spie-10.bib"
+                }
+            }
+        },
+        {
+            "title": "Detecting 3D Corpus Callosum abnormalities in  autism based on anatomical landmarks",
+            "authors": ["Qing He", "Ye Duan", "Kevin Karsch", "Judith Miles"],
+            "venue": "Psychiatry Res 2010",
+            "links": {
+                "paper": "./resources/papers/2010-psyn/he-psyn-10.pdf",
+                "repImage": "./resources/papers/2010-psyn/he-psyn-10.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2010-psyn/he-psyn-10.bib"
+                }
+            }
+        },
+        {
+            "title": "Shape analysis of corpus callosum in autism subtype using planar conformal mapping",
+            "authors": ["Qing He", "Ye Duan", "Xiaotian Yin", "Xianfeng Gu", "Kevin Karsch", "Judith Miles"],
+            "venue": "SPIE Medical Imaging 2009",
+            "links": {
+                "paper": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.pdf",
+                "repImage": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.bib"
+                }
+            }
+        },
+        {
+            "title": "Detecting 3D Corpus Callosum abnormalities in phenylketonuria",
+            "authors": ["Qing He", "Shawn E. Christ", "Kevin Karsch", "Amanda J. Moffitt", "Dawn Peck", "Ye Duan"],
+            "venue": "Int J Comput Biol Drug Des 2009",
+            "links": {
+                "paper": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.pdf",
+                "repImage": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.bib"
+                }
+            }
+        },
+        {
+            "title": "Detecting corpus callosum abnormalities in autism subtype using planar conformal mapping",
+            "authors": ["Qing He", "Ye Duan", "Xiaotian Yin", "Xianfeng Gu", "Kevin Karsch", "Judith Miles"],
+            "venue": "Int J Numer Meth Biomed Engng 2009",
+            "links": {
+                "paper": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.pdf",
+                "repImage": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.bib"
+                }
+            }
+        },
+        {
+            "title": "A Fast, Semi-automatic Brain Structure Segmentation Algorithm for Magnetic Resonance Imaging",
+            "authors": ["Kevin Karsch", "Qing He", "Ye Duan"],
+            "venue": "BIBM 2009",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1904.09978",
+                "repImage": "./resources/papers/2009-bibm/Seg3D-BIBM09.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2009-bibm/Seg3D-BIBM09.bib"
+                }
+            }
+        },
+        {
+            "title": "A Novel Algorithm for Automatic Brain Structure Segmentation from MRI",
+            "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
+            "venue": "ISVC 2008",
+            "links": {
+                "arxiv": "https://arxiv.org/abs/1904.09977",
+                "repImage": "./resources/papers/2008-isvc/AutoSeg-ISVC08.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2008-isvc/AutoSeg-ISVC08.bib"
+                }
+            }
+        },
+        {
+            "title": "Web based brain volume calculation for magnetic resonance images",
+            "authors": ["Kevin Karsch", "Brian Grinstead", "Qing He", "Ye Duan"],
+            "venue": "EMBC 2008",
+            "links": {
+                "paper": "./resources/papers/2008-embc/BVCalc-EMBC08.pdf",
+                "repImage": "./resources/papers/2008-embc/BVCalc-EMBC08.png",
+                "extras": {
+                    "bibtex": "./resources/papers/2008-embc/BVCalc-EMBC08.bib"
+                }
+            }
+        },
+        {
+            "title": "Abnormalities in MRI traits of corpus callosum in autism subtype",
+            "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
+            "venue": "EMBC 2008",
+            "links": {
+                "paper": "./resources/papers/2008-embc/CCAbnorm-EMBC08.pdf",
+                "repImage": "./resources/papers/2008-embc/CCAbnorm-EMBC08.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2008-embc/CCAbnorm-EMBC08.bib"
+                }
+            }
+        }
+    ],
+    "patents" : [
+        {
+            "title": "4D vizualization of building design and construction modeling with photographs",
+            "authors": ["David A. Forsyth", "Kevin Karsch", "Mani Golparvar-Fard"],
+            "link": "https://patents.google.com/patent/US9852238B2",
+            "patentNumber": "US9852238B2"
+        },
+        {
+            "title": "Conversion of a digital stereo image into multiple views with parallax for 3D viewing without glasses",
+            "authors": ["Mark A. Raymond", "Hector Andres Porras Soto", "Kevin Karsch"],
+            "link": "https://patents.google.com/patent/US9786253B2",
+            "patentNumber": "US9786253B2"
+        },
+        {
+            "title": "Relighting fragments for insertion into content",
+            "authors": ["Kevin Karsch", "Zicheng Liao", "David A. Forsyth"],
+            "link": "https://patents.google.com/patent/US9471967B2",
+            "patentNumber": "US9471967B2"
+        },
+        {
+            "title": "Relighting fragments for insertion into content",
+            "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
+            "link": "https://patents.google.com/patent/US9414048B2",
+            "patentNumber": "US9414048B2"
+        },
+        {
+            "title": "Inserting objects into content",
+            "authors": ["Kevin Karsch", "Varsha Hedau", "David A. Forsyth", "Derek Hoiem"],
+            "link": "https://patents.google.com/patent/US9330500B2",
+            "patentNumber": "US9330500B2"
+        },
+        {
+            "title": "Automatic geometry and lighting inference for realistic image editing",
+            "authors": ["Kevin Karsch", "Kalyan Sunkavalli", "Sunil Hadap", "Nathan Carr", "Hailin Jin"],
+            "link": "https://patents.google.com/patent/US9299188B2",
+            "patentNumber": "US9299188B2"
+        }
+    ]
+}
