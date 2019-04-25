@@ -61,11 +61,11 @@ for paper in fullPaperList:
 
     # Store html
     papersHtmlSnippets.append([
-        '<div class="row mt-4 align-items-center">\n',
-        '  <div class="col-4">\n',
+        '<div class="row mt-4 align-items-center">\n', #add top pad, align column content vertical center
+        '  <div class="col-4 d-none d-md-block">\n', #hide if less than md
         '    <img class="img-fluid rounded mx-auto d-block" width="300px" src="{rep_image_link}">\n'.format(rep_image_link = repImageLink),
         '  </div>\n',
-        '  <div class="col-8">\n',
+        '  <div class="col-xs-12 col-md-8">\n', #8 if md, 12 if less
         '      <p class="lead"><a href="{paper_link}">{paper_title}</a></p>\n'.format(paper_link = paperLink, paper_title = paperTitle),
         '      <p>{author_list}</p>\n'.format(author_list = ", ".join(authorList)),
         '      <p><i>{venue}</i></p>\n'.format(venue = paperVenue),
