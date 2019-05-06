@@ -1,4 +1,34 @@
 {
+    "links": [
+        {
+            "name": "cv",
+            "link": "TODO"
+        },
+        {
+            "name": "google scholar",
+            "link": "https://scholar.google.com/citations?user=_Y46BbYAAAAJ"
+        },
+        {
+            "name": "patents",
+            "link": "https://patents.google.com/?inventor=Kevin+Karsch"
+        },
+        {
+            "name": "arxiv",
+            "link": "https://arxiv.org/search/?query=Karsch%2C+Kevin&searchtype=author"
+        },
+        {
+            "name": "vimeo",
+            "link": "https://vimeo.com/kevinkarsch"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/kevinkarsch"
+        },
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/kevinkarsch"
+        }
+    ],
     "authors" : [
         {
             "name": "Brett Jones",
@@ -133,7 +163,7 @@
         {
             "title": "Inverse Rendering Techniques for Physically Grounded Image Editing",
             "authors": ["Kevin Karsch"],
-            "venue": "PhD Thesis (2015)",
+            "venue": "PhD Thesis (UIUC 2015)",
             "links": {
                 "paper": "./resources/papers/2015-thesis/thesis-KevinKarsch.pdf",
                 "repImage": "./resources/papers/2015-thesis/thesis-KevinKarsch.jpg",
@@ -150,7 +180,7 @@
                 "arxiv": "https://arxiv.org/abs/1502.04744",
                 "repImage": "./resources/papers/2015-arxiv/tr15-drinks-teaser.jpg",
                 "extras": {
-                    "video": "TODO",
+                    "video": "https://www.youtube.com/watch?v=DTiw0A_jdsM",
                     "bibtex": "./resources/papers/2015-arxiv/tr15-drinks-teaser.bib"
                 }
             }
@@ -206,7 +236,7 @@
         {
             "title": "Blind Recovery of Spatially Varying Reflectance from a Single Image",
             "authors": ["Kevin Karsch", "David A. Forsyth"],
-            "venue": "SIGGRAPH Asia 2014 Workshop on Indoor Scene Understanding",
+            "venue": "SIGGRAPH Asia 2014 Workshop on Indoor Scene Understanding (best paper)",
             "links": {
                 "paper": "./resources/papers/2014-sa_isu/sa14_isu-materials.pdf",
                 "repImage": "./resources/papers/2014-sa_isu/sa14_isu-materials.jpg",
@@ -235,7 +265,7 @@
         {
             "title": "Depth Extraction from Video Using Non-parametric Sampling",
             "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
-            "venue": "ECCV 2012",
+            "venue": "ECCV 2012 (oral presentation)",
             "links": {
                 "paper": "./resources/papers/2012-eccv/eccv12-depthtransfer.pdf",
                 "repImage": "./resources/papers/2012-eccv/eccv12-depthtransfer.png"
@@ -260,7 +290,7 @@
         {
             "title": "Snaxels on a plane",
             "authors": ["Kevin Karsch", "John C. Hart"],
-            "venue": "NPAR 2011",
+            "venue": "NPAR 2011 (best paper honorable mention)",
             "links": {
                 "arxiv": "https://arxiv.org/abs/1904.09530",
                 "repImage": "./resources/papers/2011-npar/npar11.png",
@@ -403,9 +433,65 @@
                     "bibtex": "./resources/papers/2008-embc/CCAbnorm-EMBC08.bib"
                 }
             }
+        },
+        {
+            "title": "Detecting thalamic abnormalities in autism using cylinder conformal mapping",
+            "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
+            "venue": "ISVC 2008",
+            "links": {
+                "paper": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.pdf",
+                "repImage": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.jpg",
+                "extras": {
+                    "bibtex": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.bib"
+                }
+            }
+        },
+        {
+            "title": "Electronic transmission of Gamma Knife records to a radiation oncology record and verify system and e-mail",
+            "authors": ["Kevin Karsch", "Robert Drzymala"],
+            "venue": "Medical Physics 2008",
+            "links": {
+                "paper": "./resources/papers/2008-medphys/GKEmail-AAPM08.pdf",
+                "repImage": "./resources/papers/2008-medphys/GKEmail-AAPM08.jpg",
+                "extras": {
+                    "doi": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.2962192"
+                }
+            }
+        },
+        {
+            "title": "Import of Gamma Knife Model C treatment plans into CERR",
+            "authors": ["Robert Drzymala", "Kevin Karsch", "James Alaly", "Divya Khullar", "Yu Wu", "Joseph Deasy"],
+            "venue": "Medical Physics 2008",
+            "links": {
+                "paper": "./resources/papers/2008-medphys/GKImport-AAPM08.pdf",
+                "repImage": "./resources/papers/2008-medphys/GKImport-AAPM08.jpg",
+                "extras": {
+                    "doi": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.2962195"
+                }
+            }
         }
     ],
     "patents" : [
+        {
+            "title": "Method for augmenting a scene in real space with projected visual content",
+            "authors": ["Kevin Karsch", "Rajinder Sodhi", "Brett Jones", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny", "Ehsan Noursalehi", "Derek Nedelman", "Laura LaPerche", "Brittany Factura"],
+            "pending": true
+        },
+        {
+            "title": "System for projecting spatially-referenced content within a space",
+            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Phil Reyneri", "Douglas Rieck", "Pulkit Budhiraja"],
+            "pending": true
+        },
+        {
+            "title": "Method for augmenting surfaces in a space with visual content",
+            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
+            "pending": true
+        },
+        {
+            "title": "Method for augmenting changes in a space with ambient, responsive visual interfaces",
+            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
+            "pending": true
+        },
         {
             "title": "4D vizualization of building design and construction modeling with photographs",
             "authors": ["David A. Forsyth", "Kevin Karsch", "Mani Golparvar-Fard"],
@@ -441,6 +527,316 @@
             "authors": ["Kevin Karsch", "Kalyan Sunkavalli", "Sunil Hadap", "Nathan Carr", "Hailin Jin"],
             "link": "https://patents.google.com/patent/US9299188B2",
             "patentNumber": "US9299188B2"
+        }
+    ],
+    "bookchapters": [
+        {
+            "title": "DepthTransfer: Depth extraction from video using non-parametric sampling",
+            "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
+            "book": "Dense Image Correspondences for Computer Vision",
+            "pages": "chapter 9, pages 173-206",
+            "editors": ["Tal Hassner", "Ce Liu"],
+            "publisher": "Springer International Publishing",
+            "year": "2016"
+        }
+    ],
+    "funding": [
+        {
+            "name": "Projected augmented reality systems for large scale enterprise deployment",
+            "award": "NSF SBIR (Phase IIb)",
+            "years": "2019-2021"
+        },
+        {
+            "name": "Automatic calibration and Rralignment of projection mapping systems",
+            "award": "NSF SBIR (Phase II-TECP)",
+            "years": "2017-2019"
+        },
+        {
+            "name": "Reliable, scalable projection mapping systems with reusable content",
+            "award": "NSF SBIR (Phase II)",
+            "years": "2016-2018"
+        },
+        {
+            "name": "Self-contained projection mapping systems",
+            "award": "NSF SBIR (Phase Ib)",
+            "years": "2015-2016"
+        },
+        {
+            "name": "A unified system for low-cost, scalable projection mapping",
+            "award": "NSF SBIR (Phase I)",
+            "years": "2015-2016"
+        }
+    ],
+    "awards": [
+        {
+            "name": "Digital Design of the Year - Dezeen Awards",
+            "year": "2018",
+            "link": "https://www.dezeen.com/awards/2018/winners/lightform-lf1-lightform/",
+            "tag": "lightform"
+        },
+        {
+            "name": "Best Overall New Product - Infocomm",
+            "year": "2018",
+            "link": "https://www.ravepubs.com/best-infocomm-2018-awards/",
+            "tag": "lightform"
+        },
+        {
+            "name": "Best Overall New Product - Infocomm 2018",
+            "year": "2018",
+            "link": "https://www.ravepubs.com/best-infocomm-2018-awards/",
+            "tag": "lightform"
+        },
+        {
+            "name": "CVPR 2017 Outstanding Reviewer",
+            "year": "2017",
+            "link": "http://cvpr2017.thecvf.com/files/OutstandingReviewers.pdf",
+            "tag": "lightform"
+        },
+        {
+            "name": "Cozad New Venture Competition Winner",
+            "year": "2014",
+            "link": "https://tec.illinois.edu/programs/cozad/past-winners",
+            "tag": "lightform"
+        },
+        {
+            "name": "Beckman Institute Artificial Intelligence Award",
+            "year": "2013",
+            "tag": "grad"
+        },
+        {
+            "name": "Lemelson-MIT Illinois Student Prize",
+            "year": "2012",
+            "link": "https://lemelson.mit.edu/news/mit-student-inventor-miles-c-barr-receives-lemelson-mit-student-prize",
+            "tag": "grad"
+        },
+        {
+            "name": "National Science Foundation Graduate Research Fellowship (NSFGRF)",
+            "year": "2010",
+            "tag": "grad"
+        },
+        {
+            "name": "National Defense Science and Engineering Graduate Fellowship (NDSEG)",
+            "year": "2010",
+            "tag": "grad"
+        },
+        {
+            "name": "Diffenbaugh Fellowship",
+            "year": "2009",
+            "tag": "grad"
+        },
+        {
+            "name": "Phyllis Ann Heysell Scholarship",
+            "year": "2009",
+            "tag": "grad"
+        },
+        {
+            "name": "CRA Outstanding Undergraduate Award -- Finalist",
+            "year": "2009",
+            "link": "https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2009",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Barry M. Goldwater Scholar",
+            "year": "2008",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Curtis and Barbara Benton Scholarship in Engineering",
+            "year": "2008",
+            "tag": "undergrad"
+        },
+        {
+            "name": "John M. Kuhlman Scholarship",
+            "year": "2008",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Arts and Science Quadrangle Award",
+            "year": "2008",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Helen M. Barrett Memorial Scholarship",
+            "year": "2008",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Ralph K. and Maxine J. Hibbs Scholarship",
+            "year": "2007",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Outstanding Student Award in Engineering",
+            "year": "2007",
+            "tag": "undergrad"
+        },
+        {
+            "name": "William R. Kimmel Engineering Scholarship",
+            "year": "2007",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Lloyd E. Hightower Fund for Excellence in Engineering",
+            "year": "2006",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Missouri Bright Flight Scholar",
+            "year": "2006",
+            "tag": "undergrad"
+        },
+        {
+            "name": "Missouri University Excellence Award",
+            "year": "2006",
+            "tag": "undergrad"
+        }
+    ],
+    "press" : [
+        {
+            "title": "Lightform: The Magical Little Device that Transforms While Rooms into Screens",
+            "link": "https://www.wired.com/2017/04/lightform-magical-little-device-transforms-whole-rooms-screens/",
+            "tag": "lightform"
+        },
+        {
+            "title": "Lightform computer brings glasses-free augmented reality 'anywhere'",
+            "link": "https://www.engadget.com/2017/03/27/lightform-computer-brings-glasses-free-augmented-reality-anywhe/",
+            "tag": "lightform"
+        },
+        {
+            "title": "Lightform Emerges With \\$2.6 Million For Glasses-Free AR Tech",
+            "link": "https://uploadvr.com/lightform-projection-mapping/",
+            "tag": "lightform"
+        },
+        {
+            "title": "Projection AR to make every surface come alive! Our investment in Lightform.",
+            "link": "https://medium.com/@lux{\\_}capital/projection-ar-to-make-every-surface-come-alive-our-investment-in-lightform-7c9c0d5dc5c6",
+            "tag": "lightform"
+        },
+        {
+            "title": "Student Startup Lumenous Brings Projection Mapping Out of the Arena",
+            "pubInfo": "CS @ Illinois Press, June 2014.",
+            "link": "https://www.wired.com/2017/04/lightform-magical-little-device-transforms-whole-rooms-screens/",
+            "tag": "lightform"
+        },
+        {
+            "title": "Wearable Device Technology \\& Projection Mapping Startup Win Top Prizes at Cozad New Venture Competition.",
+            "pubInfo": "UIUC Press Release, April 2014.",
+            "link": "http://tec.illinois.edu/resources/news/wearable-device-technology-projection-mapping-startup-win-top-prizes-cozad-new-venture",
+            "tag": "lightform"
+        },
+        {
+            "title": "How to Grab a Drink Without Leaving Virtual Reality.",
+            "pubInfo": "Discover Magazine (online), Feb 2015.",
+            "link": "http://blogs.discovermagazine.com/lovesick-cyborg/2015/02/27/grab-drink-without-leaving-virtual-reality",
+            "tag": "grad"
+        },
+        {
+            "title": "UI Computer Science Student Wins \\$30,000 Prize.",
+            "pubInfo": "News Gazette, Mar 2012.",
+            "link": "http://www.news-gazette.com/news/local/2012-03-07/ui-computer-science-student-wins-30000-prize.html",
+            "tag": "grad"
+        },
+        {
+            "title": "CS Graduate Student Named Winner of the \\$30,000 Lemelson-MIT Illinois Student Prize.",
+            "pubInfo": "UIUC Press Release, Mar 2012.",
+            "link": "http://engineering.illinois.edu/news/article/2012-03-07-cs-graduate-student-named-winner-30000-lemelson-mit-illinois-student-prize",
+            "tag": "grad"
+        },
+        {
+            "title": "CGI: Now as easy as ABC.",
+            "pubInfo": "Wired UK, Feb 2012.",
+            "link": "http://www.wired.co.uk/magazine/archive/2012/03/start/cgi-easy-as-abc",
+            "tag": "grad"
+        },
+        {
+            "title": "Whose Fingers Are On The Victoria's Secret Model's Shoulder?",
+            "pubInfo": "NPR, Feb 2012.",
+            "link": "https://www.npr.org/sections/krulwich/2012/01/30/146092729/whose-fingers-are-on-the-victoria-secret-models-shoulder",
+            "tag": "grad"
+        },
+        {
+            "title": "Software Realistically Adds 3-D Objects to Old Photos.",
+            "pubInfo": "IEEE Spectrum, Dec 2011.",
+            "link": "http://spectrum.ieee.org/video/computing/software/software-realistically-adds-3d-objects-to-old-photos",
+            "tag": "grad"
+        },
+        {
+            "title": "Smart Image Editor Adds Fake Objects to Photos.",
+            "pubInfo": "New Scientist, Dec 2011.",
+            "link": "http://www.newscientist.com/blogs/nstv/2011/12/smart-image-editor-adds-fake-objects-to-photos.html",
+            "tag": "grad"
+        },
+        {
+            "title": "Way Cooler Than Photoshop: Add 3D Objects to 2D Photos.",
+            "pubInfo": "The Atlantic, Oct 2011.",
+            "link": "http://www.theatlantic.com/video/archive/2011/10/way-cooler-than-photoshop-add-3d-objects-to-2d-photos/247346/",
+            "tag": "grad"
+        },
+        {
+            "title": "Software Seamlessly Inserts New Objects Into Existing Photographs.",
+            "pubInfo": "Popular Science, Oct 2011.",
+            "link": "http://www.popsci.com/technology/article/2011-10/new-program-slips-super-accurate-false-images-existing-photographs",
+            "tag": "grad"
+        },
+        {
+            "title": "Kevin Karsch, Image Aventurer.",
+            "pubInfo": "Daily Brink, Oct 2011.",
+            "link": "http://www.dailybrink.com/?p=2590",
+            "tag": "grad"
+        },
+        {
+            "title": "New Technology Can Convert Pictures into 3-D Images.",
+            "pubInfo": "Daily Illini, Oct 2011.",
+            "link": "http://www.dailyillini.com/news/article_d2b49944-a418-5490-9ab8-ff810f20ee9b.html",
+            "tag": "grad"
+        },
+        {
+            "title": "Today's `What Hath God Wrought?' Tech Moment.",
+            "pubInfo": "The Atlantic, Oct 2011.",
+            "link": "http://www.theatlantic.com/technology/archive/2011/10/todays-what-hath-god-wrought-tech-moment/247260/",
+            "tag": "grad"
+        }
+    ],
+    "teaching" : [
+        {
+            "where": "University of Illinois",
+            "role": "TA (Computational Photography)",
+            "years": "Spring 2012, Fall 2013",
+            "bullets": [
+                "Lectured on image-based lighting, rendering methods, and 3D reconstruction",
+                "Developed and tested new course projects"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "University of Illinois",
+            "role": "Guest Lecturer",
+            "years": "2010-2015",
+            "bullets": [
+                "Courses: Computer Graphics, Computer Vision, Computational Photography"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "University of Missouri",
+            "role": "TA (Computer Graphics)",
+            "years": "Spring 2009",
+            "bullets": [
+                "Instructed classes of over 30 graduate and undergraduate students",
+                "Guided students to develop introductory 3D simulations using OpenGL and QT"
+            ],
+            "tag": "undergrad"
+        },
+        {
+            "where": "University of Missouri",
+            "role": "Residential Advisor",
+            "years": "2006-2008",
+            "bullets": [
+                "Instructed courses for incoming freshman",
+                "Provided academic and social advising to a diverse population of students",
+                "Coordinated with other residential advisors in planning campus-wide events"
+            ],
+            "tag": "undergrad"
         }
     ]
 }

@@ -82,12 +82,8 @@ for patent in fullPatentList:
     #Get all paper related data (and fail if anything necessary is missing)
     patentTitle = patent["title"]
     patentAuthors = patent["authors"]
-    patentLink = patent.get("link")
-    patentNumber = patent.get("patentNumber")
-    pending = patent.get("pending", False)
-
-    if pending: #don't show pending patents
-        continue
+    patentLink = patent["link"]
+    patentNumber = patent["patentNumber"]
 
     # Create linked author list
     authorList = generateLinkedAuthorList(patentAuthors, fullAuthorList)
