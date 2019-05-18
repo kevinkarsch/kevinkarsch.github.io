@@ -1,15 +1,12 @@
-## Webpage source for Kevin Karsch's homepage
+## Webpage + cv/resume source for Kevin Karsch's homepage
 
-### Building the website
+### Building
 
-All publication data lives in `src/publications.json`. Edit this if needed, then build the webpage with (dumps `index.html` to the root of this repo):
+All publication data lives in `src/personalData.json`. Edit this if needed, then build the webpage/cv with:
 
 ```
-python src/buildHomepage.py
+python3 src/buildHomepage.py
+python3 src/buildCv.py
 ```
 
-### TODOs
-- [ ] Write new bio
-- [ ] Upload other papers to arxiv
-- [ ] Update CV to be auto generated from publications.json
-- [ ] Validate all links
+These commands will generate `index.html`, `resume.pdf`, and `cv.pdf` in this directory.

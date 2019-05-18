@@ -1,5 +1,16 @@
 import json
+import os
 
+# This script generates the homepage from index-in.html
+
+# Globals ----------------------------------------------------------------------
+thisDir = os.path.dirname(os.path.realpath(__file__))
+personalDataJson = os.path.join(thisDir, "personalData.json")
+placeholderWebpage = os.path.join(thisDir, "index-in.html")
+outputWebpage = os.path.join(thisDir, "..", "index.html")
+
+
+# Helpers ----------------------------------------------------------------------
 def findAuthor(authorName, fullAuthorList):
     for authorData in fullAuthorList:
         if "name" in authorData:
@@ -11,7 +22,9 @@ def generateLinkedAuthorList(paperAuthorList, fullAuthorList):
     linkedAuthorList = []
     for authorName in paperAuthorList:
         authorData = findAuthor(authorName, fullAuthorList)
-        if authorData and "website" in authorData:
+        if authorName.lower() == "kevin karsch": # Case insensitive just in case
+            linkedAuthorList.append('<b>Kevin Karsch</b>') # No need to link to the website we're already on
+        elif authorData and "website" in authorData:
             linkedAuthorList.append('<a href="{website}">{name}</a>'.format(website = authorData["website"], name = authorName))
         else:
             linkedAuthorList.append(authorName)
@@ -20,26 +33,32 @@ def generateLinkedAuthorList(paperAuthorList, fullAuthorList):
 def getLeadingWhitespaceCharacters(string):
     return string[:len(string.rstrip())-len(string.strip())]
 
-# main -------------------------------------------------------------------------
-publicationJson = "./publications.json"
-placeholderWebpage = "./index-in.html"
-outputWebpage = "../index.html"
 
+# Main -------------------------------------------------------------------------
+# Read / parse inputs
 with open(placeholderWebpage) as webpage:
     webpageHtmlLines = webpage.readlines()
 
-with open(publicationJson, "r") as jsonFile:
-    publicationData = json.load(jsonFile)
+with open(personalDataJson, "r") as jsonFile:
+    personalData = json.load(jsonFile)
 
-fullAuthorList = publicationData["authors"]
-fullPaperList = publicationData["papers"]
-fullPatentList = publicationData["patents"]
+linksList = personalData["links"]
+fullAuthorList = personalData["authors"]
+fullPaperList = personalData["papers"]
+fullPatentList = personalData["patents"]
+
+linksHtmlSnippets = []
+for linkObject in linksList:
+    name = linkObject["name"]
+    link = linkObject["link"]
+    linksHtmlSnippets.append('<a href="{link}">{name}</a>'.format(link = link, name = name))
+
 
 papersHtmlSnippets = []
 for paper in fullPaperList:
     #Get all paper related data (and fail if anything necessary is missing)
     paperTitle = paper["title"]
-    paperVenue= paper["venue"]
+    paperVenue = paper["venue"]
     paperAuthors = paper["authors"]
     paperAllLinks = paper["links"]
     paperLink = paperAllLinks["arxiv"] if ("arxiv" in paperAllLinks) else paperAllLinks["paper"]
@@ -63,7 +82,7 @@ for paper in fullPaperList:
     papersHtmlSnippets.append([
         '<div class="row mt-4 align-items-center">\n', #add top pad, align column content vertical center
         '  <div class="col-4 d-none d-md-block">\n', #hide if less than md
-        '    <img class="img-fluid rounded mx-auto d-block" width="300px" src="{rep_image_link}">\n'.format(rep_image_link = repImageLink),
+        '    <img class="img-fluid rounded mx-auto d-block" width="200px" src="{rep_image_link}">\n'.format(rep_image_link = repImageLink),
         '  </div>\n',
         '  <div class="col-xs-12 col-md-8">\n', #8 if md, 12 if less
         '      <p class="lead"><a href="{paper_link}">{paper_title}</a></p>\n'.format(paper_link = paperLink, paper_title = paperTitle),
@@ -106,15 +125,21 @@ for patent in fullPatentList:
 # Find placeholders and replace them with generated html, writing the new webpage as we go
 with open(outputWebpage, "w") as generatedWebpage:
     for line in webpageHtmlLines:
-        if line.strip() == "{papers_placeholder}":
+        if line.strip() == "{{links-placeholder}}":
+            leadingWhitespace = getLeadingWhitespaceCharacters(line)
+            generatedWebpage.write(leadingWhitespace + ' | '.join(linksHtmlSnippets))
+
+        elif line.strip() == "{{papers-placeholder}}":
             leadingWhitespace = getLeadingWhitespaceCharacters(line)
             allHtmlLines = [item for sublist in papersHtmlSnippets for item in sublist]
             for newline in [leadingWhitespace + html for html in allHtmlLines]:
                 generatedWebpage.write(newline)
-        elif line.strip() == "{patents_placeholder}":
+
+        elif line.strip() == "{{patents-placeholder}}":
             leadingWhitespace = getLeadingWhitespaceCharacters(line)
             allHtmlLines = [item for sublist in patentsHtmlSnippets for item in sublist]
             for newline in [leadingWhitespace + html for html in allHtmlLines]:
                 generatedWebpage.write(newline)
+
         else:
             generatedWebpage.write(line)

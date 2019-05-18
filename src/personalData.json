@@ -2,7 +2,7 @@
     "links": [
         {
             "name": "cv",
-            "link": "TODO"
+            "link": "./cv.pdf"
         },
         {
             "name": "google scholar",
@@ -534,7 +534,7 @@
             "title": "DepthTransfer: Depth extraction from video using non-parametric sampling",
             "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
             "book": "Dense Image Correspondences for Computer Vision",
-            "pages": "chapter 9, pages 173-206",
+            "pages": "Chapter 9, pages 173-206",
             "editors": ["Tal Hassner", "Ce Liu"],
             "publisher": "Springer International Publishing",
             "year": "2016"
@@ -547,7 +547,7 @@
             "years": "2019-2021"
         },
         {
-            "name": "Automatic calibration and Rralignment of projection mapping systems",
+            "name": "Automatic calibration and realignment of projection mapping systems",
             "award": "NSF SBIR (Phase II-TECP)",
             "years": "2017-2019"
         },
@@ -569,25 +569,19 @@
     ],
     "awards": [
         {
-            "name": "Digital Design of the Year - Dezeen Awards",
+            "name": "Digital Design of the Year -- Dezeen Awards",
             "year": "2018",
             "link": "https://www.dezeen.com/awards/2018/winners/lightform-lf1-lightform/",
             "tag": "lightform"
         },
         {
-            "name": "Best Overall New Product - Infocomm",
+            "name": "Best Overall New Product -- Infocomm",
             "year": "2018",
             "link": "https://www.ravepubs.com/best-infocomm-2018-awards/",
             "tag": "lightform"
         },
         {
-            "name": "Best Overall New Product - Infocomm 2018",
-            "year": "2018",
-            "link": "https://www.ravepubs.com/best-infocomm-2018-awards/",
-            "tag": "lightform"
-        },
-        {
-            "name": "CVPR 2017 Outstanding Reviewer",
+            "name": "CVPR Outstanding Reviewer",
             "year": "2017",
             "link": "http://cvpr2017.thecvf.com/files/OutstandingReviewers.pdf",
             "tag": "lightform"
@@ -632,7 +626,7 @@
         {
             "name": "CRA Outstanding Undergraduate Award -- Finalist",
             "year": "2009",
-            "link": "https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2009",
+            "link": "https://cra.org/about/awards/outstanding-undergraduate-researcher-award/\\#2009",
             "tag": "undergrad"
         },
         {
@@ -797,6 +791,134 @@
             "tag": "grad"
         }
     ],
+    "education": [
+        {
+            "where": "University of Illinois Urbana-Champaign",
+            "degree": "PhD in Computer Science",
+            "years": "2009-2015",
+            "bullets": [
+                "Thesis: Inverse Rendering Techniques for Physically Grounded Image Editing",
+                "Advisors: David Forsyth, Derek Hoiem"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "University of Missouri-Columbia",
+            "degree": "BS in Math, Computer Science",
+            "years": "2005-2009",
+            "bullets": [
+                "Summa Cum Laude with Departmental Honors in Math and Computer Science"
+            ],
+            "tag": "undergrad"
+        }
+    ],
+    "experience": [
+        {
+            "where": "Lightform",
+            "role": "Co-Founder and CTO",
+            "years": "2015-Present",
+            "bullets": [
+                "Leading the technical divisions of the company: software, hardware and research",
+                "Project manager and individual contributor for software development and research",
+                "Additional responsibilities include hiring, IP, company direction and board member",
+                "Products Developed: LF1, LF2, Lightform Creator, Lowe's Canvas"
+            ],
+            "tag": "lightform"
+        },
+        {
+            "where": "Subliminl",
+            "role": "Co-Founder",
+            "years": "2012-2014",
+            "bullets": [
+                "Developed applications for seamlessly inserting advertisements into images and video",
+                "Created a method for inserting animations into existing video content"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "Lumenco",
+            "role": "Computer vision engineer (contract)",
+            "years": "2012-2014",
+            "bullets": [
+                "Developed software for displaying glasses-free, 3D media via autostereoscopy",
+                "Made an algorithm that synthesized extreme viewpoints from stereo images and videos"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "Precision Augmented Reality Works",
+            "role": "Computer vision engineer (contract)",
+            "years": "2013",
+            "bullets": [
+                "Created software to detect changes in retail store displays for inventory management",
+                "Implemented a method to automatically register 3D inventory models with image data"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "Adobe Research",
+            "role": "Intern",
+            "years": "2012",
+            "bullets": [
+                "Published an image editing method for automatically inserting 3D models into pictures",
+                "Aspects of this work have been integrated into Adobe Dimension"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "Microsoft Research",
+            "role": "Intern",
+            "years": "2011",
+            "bullets": [
+                "Published a single image depth estimation technique",
+                "Created a new-view synthesis algorithm for generating stereo images and accompanying dataset"
+            ],
+            "tag": "grad"
+        },
+        {
+            "where": "Naval Research Laboratory",
+            "role": "Intern",
+            "years": "2009",
+            "bullets": [
+                "Researched and implemented graphical representations for occluded objects in AR",
+                "Conducted user studies to determine which representation should be used in an AR system used by soldiers"
+            ],
+            "tag": "undergrad"
+        },
+        {
+            "where": "Reynolds Journalism Institute",
+            "role": "Software Engineer",
+            "years": "2008-2009",
+            "bullets": [
+                "Led a team of four students to implement a unique news-based iPhone application (Newsflash)",
+                "Newsflash App awarded \"People's Choice Award\" by RJI's Futures Lab",
+                "Learned modern development techniques from engineers at Apple Headquarters"
+            ],
+            "tag": "undergrad"
+        },
+        {
+            "where": "Department of Defense",
+            "role": "Intern",
+            "years": "2008",
+            "bullets": [
+                "Implemented a mesh segmentation algorithm using a modified form of mean-shift segmentation",
+                "Presented research at the Maneuver Support and Technology Conference",
+                "Developed automatic terrain visualization software"
+            ],
+            "tag": "undergrad"
+        },
+        {
+            "where": "Washington University",
+            "role": "Intern",
+            "years": "2007",
+            "bullets": [
+                "Researched methods to improve patient care by enhancing treatment software",
+                "Collaborated with graduate researchers to develop a treatment review system",
+                "Created an automated patient documentation system used daily by physicians"
+            ],
+            "tag": "undergrad"
+        }
+    ],
     "teaching" : [
         {
             "where": "University of Illinois",
@@ -804,7 +926,7 @@
             "years": "Spring 2012, Fall 2013",
             "bullets": [
                 "Lectured on image-based lighting, rendering methods, and 3D reconstruction",
-                "Developed and tested new course projects"
+                "Developed, tested and graded course projects"
             ],
             "tag": "grad"
         },
@@ -823,7 +945,7 @@
             "years": "Spring 2009",
             "bullets": [
                 "Instructed classes of over 30 graduate and undergraduate students",
-                "Guided students to develop introductory 3D simulations using OpenGL and QT"
+                "Guided students to develop 3D simulations using OpenGL and QT"
             ],
             "tag": "undergrad"
         },
@@ -833,10 +955,35 @@
             "years": "2006-2008",
             "bullets": [
                 "Instructed courses for incoming freshman",
-                "Provided academic and social advising to a diverse population of students",
-                "Coordinated with other residential advisors in planning campus-wide events"
+                "Provided academic and social advising to a diverse population of students"
             ],
             "tag": "undergrad"
         }
-    ]
+    ],
+    "skills": {
+        "languages": [
+            "C/C++",
+            "Python",
+            "Matlab"
+        ],
+        "libraries": [
+            "OpenCV",
+            "OpenGL/GLES",
+            "PCL",
+            "Libav/FFmpeg",
+            "Qt/QML",
+            "Tensorflow"
+        ],
+        "software": [
+            "Git",
+            "Jira",
+            "Blender",
+            "Figma",
+            "Adobe Ps/Ae/Ai/Dn"
+        ],
+        "project management": [
+            "Scrum",
+            "Kanban"
+        ]
+    }
 }

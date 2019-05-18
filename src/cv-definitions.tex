@@ -1,0 +1,162 @@
+%============================================================================%
+% CV definitions
+%============================================================================%
+
+\documentclass[10pt,letterpaper]{article}	
+
+\pagestyle{empty} % No page numbers
+
+%----------------------------------------------------------------------------------------
+% Encoding
+%----------------------------------------------------------------------------------------
+
+%we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}
+
+%----------------------------------------------------------------------------------------
+% Logic
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xifthen}
+
+%----------------------------------------------------------------------------------------
+% Font
+%----------------------------------------------------------------------------------------
+
+\usepackage{cmbright}
+
+% For setting underline colors (\setulcolor)
+\usepackage{color,soul}
+
+% More font size definitions
+\usepackage{moresize}		
+
+% Use fontawesome icons
+\usepackage{fontawesome}
+
+% Don't allow hyphenation (https://tex.stackexchange.com/questions/5036/how-to-prevent-latex-from-hyphenating-the-entire-document)
+\usepackage[none]{hyphenat} 
+
+%----------------------------------------------------------------------------------------
+% Page layout definitions
+%----------------------------------------------------------------------------------------
+
+% Define page styles using geometry
+\usepackage[letterpaper]{geometry}		
+\geometry{top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}
+
+% Zero indentation for lists
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+% Graphics definitions
+%---------------------------------------------------------------------------------------- 
+
+% Drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds, mindmap, trees}
+
+
+%----------------------------------------------------------------------------------------
+% Color definitions
+%---------------------------------------------------------------------------------------- 
+
+\usepackage{transparent}
+\usepackage{color}
+
+% Accent color
+\definecolor{secondaryColor}{RGB}{10,150,250}
+
+% Dark background color
+\definecolor{backgroundColor}{RGB}{110,110,110}
+
+% Light background / accent color
+\definecolor{softColor}{RGB}{225,225,225}
+
+% Package for links, must be the last package used
+\usepackage[hidelinks]{hyperref}
+
+
+%----------------------------------------------------------------------------------------
+% Tikz graphics
+%----------------------------------------------------------------------------------------
+
+% \larrow{fillColor}
+\newcommand{\larrow}[1]
+{\begin{tikzpicture}[scale=0.58]
+	 \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;
+ \end{tikzpicture}
+}
+
+
+% \larrow{fillColor}
+\newcommand{\lightform}[1]
+{\begin{tikzpicture}[scale=0.008]
+	 \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (30,0) -- (30.0,26.5) -- (22.5,7.5) -- (7.5,7.5) -- (7.5,22.5) -- (26.5,30.0) -- (0,30) -- cycle;
+ \end{tikzpicture}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	Custom sections
+%----------------------------------------------------------------------------------------
+
+% \cvSection{Title}
+\newcommand{\cvSection}[1]
+{
+	\vspace{6pt}
+	{\large\textbf{{\uppercase{#1}}}}
+	\vspace{6pt}
+}
+
+% \begin{sidebarSection}[underlineColor=white]{Title} \end{sidebarSection}
+\newenvironment{sidebarSection}[2][white]
+{
+	\begin{center}
+	\setulcolor{#1}
+	\setul{7pt}{.4pt}% 7pt to make this roughly match the hrule from \cvEventHeader
+	\textcolor{black}{\large{\uppercase{\ul{#2}}}}\\[8pt]
+}
+{
+	\end{center}
+	\vspace{12pt}
+}
+
+
+% \cvEventHeader[underlineColor]{Title, Company, Years}
+\newcommand{\cvEventHeader}[4][softColor]
+{
+	\vspace{3pt}
+	\textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
+	\vspace{5pt}
+	\textcolor{#1}{\hrule}
+	\vspace{5pt}
+}
+
+% \cvEventBullet{Sentence}
+\newcommand{\cvEventBullet}[1]
+{
+	\larrow{softColor} #1\\[3pt]
+}
+
+
+%----------------------------------------------------------------------------------------
+% Icon + text helpers
+%----------------------------------------------------------------------------------------
+
+\newcommand{\icon}[3] % icon helper
+{
+	\textcolor{#3}{\csname #1\endcsname}
+}
+
+\newcommand{\icontext}[4] % icon next to text
+{
+	\centering{\icon{#1}{#2}{#4}} \textcolor{black}{#3}
+}
+
+\newcommand{\iconhref}[5] % icon next text with link
+{
+    \centering{\icon{#1}{#2}{#5}} \href{#4}{\textcolor{black}{#3}}
+}
+
