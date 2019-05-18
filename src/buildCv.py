@@ -4,7 +4,7 @@ from shutil import copyfile
 from tempfile import TemporaryDirectory
 import subprocess
 
-# This script compiles both resume.tex and cv.tex (after generating it from cv-in.tex)
+# This script generates cv.tex (from cv-in.tex) and then compiles cv.pdf
 
 # Some of our latex'ing requires us to be in the same directory as the files
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -14,7 +14,6 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 personalDataJson = "personalData.json"
 cvTexPlaceholder = "cv-in.tex"
 cvTexGenerated = "cv.tex" # The generated result produced by this script
-resumeTex = "resume.tex"
 outputDir = ".."
 
 
@@ -156,4 +155,3 @@ with open(cvTexGenerated, "w") as generatedTex:
 
 # Compile tex files
 pdfLatex(cvTexGenerated, os.path.join(outputDir, "cv.pdf"))
-pdfLatex(resumeTex, os.path.join(outputDir, "resume.pdf"))

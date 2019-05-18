@@ -1,0 +1,3 @@
+[submodule "src/resumes"]
+	path = src/resumes
+	url = git@github.com:kevinkarsch/resumes.git

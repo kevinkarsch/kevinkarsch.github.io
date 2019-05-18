@@ -687,8 +687,23 @@
     ],
     "press" : [
         {
+            "title": "No Headset Required: Lightform Is AR In The Real World",
+            "link": "https://www.forbes.com/sites/charliefink/2018/11/01/no-headset-required-lightform-is-ar-in-the-real-world",
+            "tag": "lightform"
+        },
+        {
             "title": "Lightform: The Magical Little Device that Transforms While Rooms into Screens",
             "link": "https://www.wired.com/2017/04/lightform-magical-little-device-transforms-whole-rooms-screens/",
+            "tag": "lightform"
+        },
+        {
+            "title": "Lightform raises \\$5M to turn old projectors into augmented reality machines",
+            "link": "https://techcrunch.com/2017/11/21/lightform-raises-5m-to-turn-old-projectors-into-augmented-reality-machines",
+            "tag": "lightform"
+        },
+        {
+            "title": "Lightform unveils \\$699 augmented-reality projection device from the brains behind Xbox IllumiRoom",
+            "link": "https://www.geekwire.com/2018/lightform-unveils-699-augmented-reality-projection-device-brains-behind-xbox-illumiroom/",
             "tag": "lightform"
         },
         {
@@ -707,6 +722,12 @@
             "tag": "lightform"
         },
         {
+            "title": "How to Grab a Drink Without Leaving Virtual Reality.",
+            "pubInfo": "Discover Magazine (online), Feb 2015.",
+            "link": "http://blogs.discovermagazine.com/lovesick-cyborg/2015/02/27/grab-drink-without-leaving-virtual-reality",
+            "tag": "grad"
+        },
+        {
             "title": "Student Startup Lumenous Brings Projection Mapping Out of the Arena",
             "pubInfo": "CS @ Illinois Press, June 2014.",
             "link": "https://www.wired.com/2017/04/lightform-magical-little-device-transforms-whole-rooms-screens/",
@@ -717,12 +738,6 @@
             "pubInfo": "UIUC Press Release, April 2014.",
             "link": "http://tec.illinois.edu/resources/news/wearable-device-technology-projection-mapping-startup-win-top-prizes-cozad-new-venture",
             "tag": "lightform"
-        },
-        {
-            "title": "How to Grab a Drink Without Leaving Virtual Reality.",
-            "pubInfo": "Discover Magazine (online), Feb 2015.",
-            "link": "http://blogs.discovermagazine.com/lovesick-cyborg/2015/02/27/grab-drink-without-leaving-virtual-reality",
-            "tag": "grad"
         },
         {
             "title": "UI Computer Science Student Wins \\$30,000 Prize.",
@@ -815,7 +830,7 @@
     "experience": [
         {
             "where": "Lightform",
-            "role": "Co-Founder and CTO",
+            "role": "Co-Founder, CTO",
             "years": "2015-Present",
             "bullets": [
                 "Leading the technical divisions of the company: software, hardware and research",
@@ -837,7 +852,7 @@
         },
         {
             "where": "Lumenco",
-            "role": "Computer vision engineer (contract)",
+            "role": "Computer Vision Engineer",
             "years": "2012-2014",
             "bullets": [
                 "Developed software for displaying glasses-free, 3D media via autostereoscopy",
@@ -847,7 +862,7 @@
         },
         {
             "where": "Precision Augmented Reality Works",
-            "role": "Computer vision engineer (contract)",
+            "role": "Computer Vision Engineer",
             "years": "2013",
             "bullets": [
                 "Created software to detect changes in retail store displays for inventory management",
