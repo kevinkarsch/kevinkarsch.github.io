@@ -20,6 +20,9 @@
 % provides \isempty test
 \usepackage{xifthen}
 
+\usepackage{enumitem}
+\setlist{itemsep=0pt, topsep=0pt, leftmargin=5mm}
+
 %----------------------------------------------------------------------------------------
 % Font
 %----------------------------------------------------------------------------------------
@@ -102,12 +105,34 @@
 %	Custom sections
 %----------------------------------------------------------------------------------------
 
-% \cvSection{Title}
-\newcommand{\cvSection}[1]
+% \begin{cvSection}{Title} \end{cvSection}
+\newenvironment{cvSection}[1]
 {
 	\vspace{6pt}
 	{\large\textbf{{\uppercase{#1}}}}
 	\vspace{6pt}
+}
+{
+	\vspace{12pt}
+}
+
+% \begin{cvEvent}[underlineColor]{Title, Company, Years} \end{cvEvent}
+\newenvironment{cvEvent}[4][softColor]
+{
+	\vspace{3pt}
+	\textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
+	\vspace{5pt}
+	\textcolor{#1}{\hrule}
+	\vspace{5pt}
+}
+{
+	\vspace{9pt}
+}
+
+% \cvEventBullet{Sentence}
+\newcommand{\cvEventBullet}[1]
+{
+\begin{itemize} \item[\larrow{softColor}] #1 \end{itemize}
 }
 
 % \begin{sidebarSection}[underlineColor=white]{Title} \end{sidebarSection}
@@ -122,24 +147,6 @@
 	\end{center}
 	\vspace{12pt}
 }
-
-
-% \cvEventHeader[underlineColor]{Title, Company, Years}
-\newcommand{\cvEventHeader}[4][softColor]
-{
-	\vspace{3pt}
-	\textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
-	\vspace{5pt}
-	\textcolor{#1}{\hrule}
-	\vspace{5pt}
-}
-
-% \cvEventBullet{Sentence}
-\newcommand{\cvEventBullet}[1]
-{
-	\larrow{softColor} #1\\[3pt]
-}
-
 
 %----------------------------------------------------------------------------------------
 % Icon + text helpers

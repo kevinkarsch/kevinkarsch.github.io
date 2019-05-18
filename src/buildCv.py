@@ -66,37 +66,37 @@ with open(cvTexGenerated, "w") as generatedTex:
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
-                generatedTex.write("\\cvEventHeader{{{}}}{{{}}}{{{}}}\n".format(degree, where, years))
+                generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(degree, where, years))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
-                generatedTex.write("\n")
+                generatedTex.write("\\end{cvEvent}\n\n")
         elif line.strip() == "{{experience-placeholder}}":
             for item in experience:
                 role = item["role"]
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
-                generatedTex.write("\\cvEventHeader{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
+                generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
-                generatedTex.write("\n")
+                generatedTex.write("\\end{cvEvent}\n\n")
         elif line.strip() == "{{teaching-placeholder}}":
             for item in teaching:
                 role = item["role"]
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
-                generatedTex.write("\\cvEventHeader{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
+                generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
-                generatedTex.write("\n")
+                generatedTex.write("\\end{cvEvent}\n\n")
         elif line.strip() == "{{publications-placeholder}}":
             for item in publications:
                 title = item["title"]
                 authors = item["authors"]
                 venue = item["venue"]
                 publicationString = "{}. {}, {{\it {}}}.".format(makeTexAuthorList(authors), title, venue)
-                generatedTex.write("\\cvEventBullet{{{}}}\\\\[0pt]\n".format(publicationString))
+                generatedTex.write("\\cvEventBullet{{{}}}\n".format(publicationString))
         elif line.strip() == "{{patents-placeholder}}":
             for item in patents:
                 title = item["title"]
@@ -107,7 +107,7 @@ with open(cvTexGenerated, "w") as generatedTex:
                 else:
                     patentNumber = item["patentNumber"]
                 patentString = "{}. {}, {{\it {}}}.".format(makeTexAuthorList(authors), title, patentNumber)
-                generatedTex.write("\\cvEventBullet{{{}}}\\\\[0pt]\n".format(patentString))
+                generatedTex.write("\\cvEventBullet{{{}}}\n".format(patentString))
         elif line.strip() == "{{bookchapters-placeholder}}":
             for item in bookchapters:
                 title = item["title"]
@@ -118,7 +118,7 @@ with open(cvTexGenerated, "w") as generatedTex:
                 publisher = item["publisher"]
                 year = item["year"]
                 chapterString = "{}. {}. In {{\it {}}} ({} eds). {}, {}, {}.".format(makeTexAuthorList(authors), title, book, ", ".join(editors), publisher, year, pages)
-                generatedTex.write("\\cvEventBullet{{{}}}\\\\[0pt]\n".format(chapterString))
+                generatedTex.write("\\cvEventBullet{{{}}}\n".format(chapterString))
         elif line.strip() == "{{funding-placeholder}}":
             for item in funding:
                 name = item["name"]
