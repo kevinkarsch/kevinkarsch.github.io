@@ -126,7 +126,7 @@
             "authors": ["Giang Bui", "Brittany Morago", "Truc Le", "Kevin Karsch", "Zheyu Lu", "Ye Duan"],
             "venue": "VR 2016",
             "links": {
-                "paper": "",
+                "paper": "./resources/papers/2016-vr/lidar-vr16.pdf",
                 "repImage": "./resources/papers/2016-vr/lidar-vr16.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2016-vr/lidar-vr16.bib"
