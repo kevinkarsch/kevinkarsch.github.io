@@ -10,4 +10,3 @@ python3 src/buildCv.py
 ```
 
 These commands will generate `index.html` and `cv.pdf` in this directory.
-
