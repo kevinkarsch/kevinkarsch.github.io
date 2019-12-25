@@ -1,6 +1,10 @@
 {
     "links": [
         {
+            "name": "lightform",
+            "link": "https://lightform.com"
+        },
+        {
             "name": "cv",
             "link": "./cv.pdf"
         },
@@ -473,11 +477,6 @@
     ],
     "patents" : [
         {
-            "title": "Method for augmenting a scene in real space with projected visual content",
-            "authors": ["Kevin Karsch", "Rajinder Sodhi", "Brett Jones", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny", "Ehsan Noursalehi", "Derek Nedelman", "Laura LaPerche", "Brittany Factura"],
-            "pending": true
-        },
-        {
             "title": "System for projecting spatially-referenced content within a space",
             "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Phil Reyneri", "Douglas Rieck", "Pulkit Budhiraja"],
             "pending": true
@@ -491,6 +490,12 @@
             "title": "Method for augmenting changes in a space with ambient, responsive visual interfaces",
             "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
             "pending": true
+        },
+        {
+            "title": "Method for augmenting a scene in real space with projected visual content",
+            "authors": ["Kevin Karsch", "Rajinder Sodhi", "Brett Jones", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny", "Ehsan Noursalehi", "Derek Nedelman", "Laura LaPerche", "Brittany Factura"],
+            "link": "https://patents.google.com/patent/US10373325B1",
+            "patentNumber": "US10373325B1"
         },
         {
             "title": "4D vizualization of building design and construction modeling with photographs",
