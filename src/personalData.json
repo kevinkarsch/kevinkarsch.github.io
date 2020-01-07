@@ -117,10 +117,10 @@
             "authors": ["Brittany Factura", "Laura LaPerche", "Phil Reyneri", "Brett Jones", "Kevin Karsch"],
             "venue": "SIGGRAPH (Emerging Tech) 2018",
             "links": {
-                "paper": "./resources/papers/2018-siggraph_etech/lightform-etech18.pdf",
+                "arxiv": "https://arxiv.org/abs/2001.00521",
                 "repImage": "./resources/papers/2018-siggraph_etech/lightform-etech18.jpg",
                 "extras": {
-                    "video": "./resources/papers/2018-siggraph_etech/lightform-etech18.mp4",
+                    "video": "https://vimeo.com/383238552",
                     "bibtex": "./resources/papers/2018-siggraph_etech/lightform-etech18.bib"
                 }
             }
@@ -130,7 +130,7 @@
             "authors": ["Giang Bui", "Brittany Morago", "Truc Le", "Kevin Karsch", "Zheyu Lu", "Ye Duan"],
             "venue": "VR 2016",
             "links": {
-                "paper": "./resources/papers/2016-vr/lidar-vr16.pdf",
+                "paper": "https://www.dropbox.com/s/ucbpjfqpv66qutz/lidar-vr16.pdf?dl=0",
                 "repImage": "./resources/papers/2016-vr/lidar-vr16.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2016-vr/lidar-vr16.bib"
@@ -142,7 +142,7 @@
             "authors": ["Brett Jones", "Rajinder Sodhi", "Pulkit Budhiraja", "Kevin Karsch", "Brian Bailey", "David A. Forsyth"],
             "venue": "UIST 2015",
             "links": {
-                "paper": "./resources/papers/2015-uist/projectibles-uist15.pdf",
+                "paper": "https://www.dropbox.com/s/1oodui3pixkcik0/projectibles-uist15.pdf?dl=0",
                 "repImage": "./resources/papers/2015-uist/projectibles-uist15.jpg",
                 "extras": {
                     "video": "https://www.youtube.com/watch?v=Zid8X42_BUY",
@@ -156,10 +156,10 @@
             "authors": ["Zicheng Liao", "Kevin Karsch", "David A. Forsyth"],
             "venue": "CVPR 2015",
             "links": {
-                "paper": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.pdf",
+                "paper": "https://www.dropbox.com/s/77nrdkdzqc3tfk2/cvpr15-shadingdecomp.pdf?dl=0",
                 "repImage": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.jpg",
                 "extras": {
-                    "supplemental": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp-supp.pdf",
+                    "supplemental": "https://www.dropbox.com/s/qw2ov6cl9tskwrr/cvpr15-shadingdecomp-supp.pdf?dl=0",
                     "bibtex": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.bib"
                 }
             }
@@ -169,7 +169,7 @@
             "authors": ["Kevin Karsch"],
             "venue": "PhD Thesis (UIUC 2015)",
             "links": {
-                "paper": "./resources/papers/2015-thesis/thesis-KevinKarsch.pdf",
+                "arxiv": "https://arxiv.org/abs/2001.00986",
                 "repImage": "./resources/papers/2015-thesis/thesis-KevinKarsch.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2015-thesis/thesis-KevinKarsch.bib"
@@ -194,13 +194,13 @@
             "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
             "venue": "TPAMI 2014",
             "links": {
-                "paper": "./resources/papers/2014-tpami/tpami14-depthtransfer.pdf",
+                "arxiv": "https://arxiv.org/abs/2001.00987",
                 "repImage": "./resources/papers/2014-tpami/tpami14-depthtransfer.png",
                 "extras": {
                     "code" : "https://github.com/kevinkarsch/depth-transfer",
                     "video": "https://vimeo.com/46404667",
-                    "supplemental": "./resources/papers/2012-eccv/eccv12-depthtransfer-supp.pdf",
-                    "slides": "./resources/papers/2012-eccv/eccv12-depthtransfer-slides.pdf",
+                    "supplemental": "https://www.dropbox.com/s/m52hs2viwylc8qk/eccv12-depthtransfer-supp.pdf?dl=0",
+                    "slides": "https://www.dropbox.com/s/w0u9bd98yti07d0/eccv12-depthtransfer-slides.pdf?dl=0",
                     "bibtex": "./resources/papers/2014-tpami/tpami14-depthtransfer.bib"
                 }
             }
@@ -210,12 +210,12 @@
             "authors": ["Kevin Karsch", "Kalyan Sunkavalli", "Sunil Hadap", "Nathan Carr", "Hailin Jin", "Raphael Fonte", "Michael Sittig", "David A. Forsyth"],
             "venue": "TOG 2014 (Presented at SIGGRAPH 2014)",
             "links": {
-                "paper": "./resources/papers/2014-tog/tog14-auto_illum.pdf",
+                "arxiv": "https://arxiv.org/abs/1912.12297",
                 "repImage": "./resources/papers/2014-tog/tog14-auto_illum.jpg",
                 "extras": {
                     "video": "https://vimeo.com/101866891",
-                    "supplemental": "./resources/papers/2014-tog/tog14-auto_illum-supp.pdf",
-                    "slides": "./resources/papers/2014-tog/tog14-auto_illum-ppt.pdf",
+                    "supplemental": "https://www.dropbox.com/s/hpxjhz4ka893muy/tog14-auto_illum-supp.pdf?dl=0",
+                    "slides": "https://www.dropbox.com/s/bbhazxclrbwjnnf/tog14-auto_illum-ppt.pdf?dl=0",
                     "data": "https://github.com/kevinkarsch/auto-scene-inference-data",
                     "bibtex": "./resources/papers/2014-tog/tog14-auto_illum.bib"
                 }
@@ -226,13 +226,13 @@
             "authors": ["Kevin Karsch", "Mani Golparvar-Fard", "David A. Forsyth"],
             "venue": "SIGGRAPH Asia 2014",
             "links": {
-                "paper": "./resources/papers/2014-sa/sa14-constructaide.pdf",
+                "paper": "https://arxiv.org/abs/1912.11567",
                 "repImage": "./resources/papers/2014-sa/sa14-constructaide.jpg",
                 "extras": {
                     "video": "https://vimeo.com/106556251",
                     "video2": "https://vimeo.com/106554473",
-                    "supplemental": "./resources/papers/2014-sa/sa14-constructaide-supp.pdf",
-                    "slides": "./resources/papers/2014-sa/sa14-constructaide-slides.pdf",
+                    "supplemental": "https://www.dropbox.com/s/huhmkvytduqw84t/sa14-constructaide-supp.pdf?dl=0",
+                    "slides": "https://www.dropbox.com/s/4geod4ypk8lmt7o/sa14-constructaide-pptx.pdf?dl=0",
                     "bibtex": "./resources/papers/2014-sa/sa14-constructaide.bib"
                 }
             }
@@ -242,11 +242,11 @@
             "authors": ["Kevin Karsch", "David A. Forsyth"],
             "venue": "SIGGRAPH Asia 2014 Workshop on Indoor Scene Understanding (best paper)",
             "links": {
-                "paper": "./resources/papers/2014-sa_isu/sa14_isu-materials.pdf",
+                "paper": "https://arxiv.org/abs/1912.11568",
                 "repImage": "./resources/papers/2014-sa_isu/sa14_isu-materials.jpg",
                 "extras": {
-                    "supplemental": "./resources/papers/2014-sa_isu/sa14_isu-materials-supp.pdf",
-                    "slides": "./resources/papers/2014-sa_isu/sa14_isu-materials-pptx.pdf",
+                    "supplemental": "https://www.dropbox.com/s/ozohe42h19mrlqb/sa14_isu-materials-supp.pdf?dl=0",
+                    "slides": "https://www.dropbox.com/s/mjy2skh0t1mpqze/sa14_isu-materials-pptx.pdf?dl=0",
                     "bibtex": "./resources/papers/2014-sa_isu/sa14_isu-materials.bib"
                 }
             }
@@ -256,12 +256,12 @@
             "authors": ["Kevin Karsch", "Zicheng Liao", "Jason Rock", "Jonathan T. Barron", "Derek Hoiem"],
             "venue": "CVPR 2013",
             "links": {
-                "paper": "./resources/papers/2013-cvpr/cvpr13-boundarycues.pdf",
+                "paper": "https://arxiv.org/abs/1912.11566",
                 "repImage": "./resources/papers/2013-cvpr/cvpr13-boundarycues.png",
                 "extras": {
                     "code": "https://github.com/kevinkarsch/boundary-cues",
-                    "supplemental": "./resources/papers/2013-cvpr/cvpr13-boundarycues-supp.pdf",
-                    "poster": "./resources/papers/2013-cvpr/cvpr13-boundarycues-poster.pdf",
+                    "supplemental": "https://www.dropbox.com/s/w2xgoxhngmou2uy/cvpr13-boundarycues-supp.pdf?dl=0",
+                    "poster": "https://www.dropbox.com/s/a1fwuhgd9948ro2/cvpr13-boundarycues-poster.pdf?dl=0",
                     "bibtex": "./resources/papers/2013-cvpr/cvpr13-boundarycues.bib"
                 }
             }
@@ -271,7 +271,7 @@
             "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
             "venue": "ECCV 2012 (oral presentation)",
             "links": {
-                "paper": "./resources/papers/2012-eccv/eccv12-depthtransfer.pdf",
+                "paper": "https://www.dropbox.com/s/tg0r796zirj87nk/eccv12-depthtransfer.pdf?dl=0",
                 "repImage": "./resources/papers/2012-eccv/eccv12-depthtransfer.png"
             },
             "notes": "This paper is subsumed by the journal version (Depth Transfer - TPAMI'14)"
@@ -281,12 +281,12 @@
             "authors": ["Kevin Karsch", "Varsha Hedau", "David A. Forsyth", "Derek Hoiem"],
             "venue": "SIGGRAPH Asia 2011",
             "links": {
-                "paper": "./resources/papers/2011-sa/sa11.pdf",
+                "paper": "https://arxiv.org/abs/1912.11565",
                 "repImage": "./resources/papers/2011-sa/sa11.jpg",
                 "extras": {
                     "code": "https://github.com/kevinkarsch/rsolp",
                     "video": "https://vimeo.com/28962540",
-                    "slides": "./resources/papers/2011-sa/sa11pptx.pdf",
+                    "slides": "https://www.dropbox.com/s/4rjl7qp3xkcjuhx/sa11pptx.pdf?dl=0",
                     "bibtex": "./resources/papers/2011-sa/sa11.bib"
                 }
             }
@@ -301,7 +301,7 @@
                 "extras": {
                     "code": "https://github.com/kevinkarsch/snaxels",
                     "video": "https://vimeo.com/26851838",
-                    "slides": "./resources/papers/2011-npar/npar11_pptx.pdf",
+                    "slides": "https://www.dropbox.com/s/s7oka75gmv7kazg/npar11_pptx.pdf?dl=0",
                     "bibtex": "./resources/papers/2011-npar/npar11.bib"
                 }
             }
@@ -323,7 +323,7 @@
             "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
             "venue": "Int J Data Min Bioinform",
             "links": {
-                "paper": "./resources/papers/2011-ijdmb/ijdmb11.pdf",
+                "paper": "https://www.dropbox.com/s/xhp2choyl4ipk9g/ijdmb11.pdf?dl=0",
                 "repImage": "./resources/papers/2011-ijdmb/ijdmb11.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2011-ijdmb/ijdmb11.bib"
@@ -335,7 +335,7 @@
             "authors": ["Qing He", "Shawn E. Christ", "Kevin Karsch", "Dawn Peck", "Ye Duan"],
             "venue": "SPIE Medical Imaging 2010",
             "links": {
-                "paper": "./resources/papers/2010-spie/he-spie-10.pdf",
+                "paper": "https://www.dropbox.com/s/ajw3k8wzl8gfd4r/he-spie-10.pdf?dl=0",
                 "repImage": "./resources/papers/2010-spie/he-spie-10.png",
                 "extras": {
                     "bibtex": "./resources/papers/2010-spie/he-spie-10.bib"
@@ -347,7 +347,7 @@
             "authors": ["Qing He", "Ye Duan", "Kevin Karsch", "Judith Miles"],
             "venue": "Psychiatry Res 2010",
             "links": {
-                "paper": "./resources/papers/2010-psyn/he-psyn-10.pdf",
+                "paper": "https://www.dropbox.com/s/obio9jenc051gov/he-psyn-10.pdf?dl=0",
                 "repImage": "./resources/papers/2010-psyn/he-psyn-10.png",
                 "extras": {
                     "bibtex": "./resources/papers/2010-psyn/he-psyn-10.bib"
@@ -359,7 +359,7 @@
             "authors": ["Qing He", "Ye Duan", "Xiaotian Yin", "Xianfeng Gu", "Kevin Karsch", "Judith Miles"],
             "venue": "SPIE Medical Imaging 2009",
             "links": {
-                "paper": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.pdf",
+                "paper": "https://www.dropbox.com/s/nd06midcl9g8rpr/CCPlanarShape-SPIE09.pdf?dl=0",
                 "repImage": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.png",
                 "extras": {
                     "bibtex": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.bib"
@@ -371,7 +371,7 @@
             "authors": ["Qing He", "Shawn E. Christ", "Kevin Karsch", "Amanda J. Moffitt", "Dawn Peck", "Ye Duan"],
             "venue": "Int J Comput Biol Drug Des 2009",
             "links": {
-                "paper": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.pdf",
+                "paper": "https://www.dropbox.com/s/6v40xd5r6p9n0oc/he-ijcbdd-09.pdf?dl=0",
                 "repImage": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.png",
                 "extras": {
                     "bibtex": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.bib"
@@ -383,7 +383,7 @@
             "authors": ["Qing He", "Ye Duan", "Xiaotian Yin", "Xianfeng Gu", "Kevin Karsch", "Judith Miles"],
             "venue": "Int J Numer Meth Biomed Engng 2009",
             "links": {
-                "paper": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.pdf",
+                "paper": "https://www.dropbox.com/s/yrmixpor7rfnlv8/CCPlanarDetect-CNME09.pdf?dl=0",
                 "repImage": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.png",
                 "extras": {
                     "bibtex": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.bib"
@@ -407,7 +407,7 @@
             "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
             "venue": "ISVC 2008",
             "links": {
-                "arxiv": "https://arxiv.org/abs/1904.09977",
+                "paper": "https://www.dropbox.com/s/uuowb6366dxyc93/AutoSeg-ISVC08.pdf?dl=0",
                 "repImage": "./resources/papers/2008-isvc/AutoSeg-ISVC08.png",
                 "extras": {
                     "bibtex": "./resources/papers/2008-isvc/AutoSeg-ISVC08.bib"
@@ -419,7 +419,7 @@
             "authors": ["Kevin Karsch", "Brian Grinstead", "Qing He", "Ye Duan"],
             "venue": "EMBC 2008",
             "links": {
-                "paper": "./resources/papers/2008-embc/BVCalc-EMBC08.pdf",
+                "arxiv": "https://arxiv.org/abs/1904.09977",
                 "repImage": "./resources/papers/2008-embc/BVCalc-EMBC08.png",
                 "extras": {
                     "bibtex": "./resources/papers/2008-embc/BVCalc-EMBC08.bib"
@@ -431,7 +431,7 @@
             "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
             "venue": "EMBC 2008",
             "links": {
-                "paper": "./resources/papers/2008-embc/CCAbnorm-EMBC08.pdf",
+                "paper": "https://www.dropbox.com/s/2sg403azzngdt3c/CCAbnorm-EMBC08.pdf?dl=0",
                 "repImage": "./resources/papers/2008-embc/CCAbnorm-EMBC08.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2008-embc/CCAbnorm-EMBC08.bib"
@@ -443,7 +443,7 @@
             "authors": ["Qing He", "Kevin Karsch", "Ye Duan"],
             "venue": "ISVC 2008",
             "links": {
-                "paper": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.pdf",
+                "paper": "https://www.dropbox.com/s/5mmbbw48lgkn7c1/ThalamCylindrical-ISVC08.pdf?dl=0",
                 "repImage": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.jpg",
                 "extras": {
                     "bibtex": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.bib"
@@ -455,7 +455,7 @@
             "authors": ["Kevin Karsch", "Robert Drzymala"],
             "venue": "Medical Physics 2008",
             "links": {
-                "paper": "./resources/papers/2008-medphys/GKEmail-AAPM08.pdf",
+                "paper": "https://www.dropbox.com/s/rh4v1fvyphw3383/GKEmail-AAPM08.pdf?dl=0",
                 "repImage": "./resources/papers/2008-medphys/GKEmail-AAPM08.jpg",
                 "extras": {
                     "doi": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.2962192"
@@ -467,7 +467,7 @@
             "authors": ["Robert Drzymala", "Kevin Karsch", "James Alaly", "Divya Khullar", "Yu Wu", "Joseph Deasy"],
             "venue": "Medical Physics 2008",
             "links": {
-                "paper": "./resources/papers/2008-medphys/GKImport-AAPM08.pdf",
+                "paper": "https://www.dropbox.com/s/ms6tqcvc6rl0zwh/GKImport-AAPM08.pdf?dl=0",
                 "repImage": "./resources/papers/2008-medphys/GKImport-AAPM08.jpg",
                 "extras": {
                     "doi": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.2962195"
