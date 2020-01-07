@@ -121,7 +121,7 @@
                 "repImage": "./resources/papers/2018-siggraph_etech/lightform-etech18.jpg",
                 "extras": {
                     "video": "https://vimeo.com/383238552",
-                    "bibtex": "./resources/papers/2018-siggraph_etech/lightform-etech18.bib"
+                    "bibtex": "./resources/papers/2018-siggraph_etech/lightform-etech18.txt"
                 }
             }
         },
@@ -133,7 +133,7 @@
                 "paper": "https://www.dropbox.com/s/ucbpjfqpv66qutz/lidar-vr16.pdf?raw=1",
                 "repImage": "./resources/papers/2016-vr/lidar-vr16.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2016-vr/lidar-vr16.bib"
+                    "bibtex": "./resources/papers/2016-vr/lidar-vr16.txt"
                 }
             }
         },
@@ -147,7 +147,7 @@
                 "extras": {
                     "video": "https://www.youtube.com/watch?v=Zid8X42_BUY",
                     "video2": "http://youtu.be/GiBBtVaxi4Y",
-                    "bibtex": "./resources/papers/2015-uist/projectibles-uist15.bib"
+                    "bibtex": "./resources/papers/2015-uist/projectibles-uist15.txt"
                 }
             }
         },
@@ -160,7 +160,7 @@
                 "repImage": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.jpg",
                 "extras": {
                     "supplemental": "https://www.dropbox.com/s/qw2ov6cl9tskwrr/cvpr15-shadingdecomp-supp.pdf?raw=1",
-                    "bibtex": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.bib"
+                    "bibtex": "./resources/papers/2015-cvpr/cvpr15-shadingdecomp.txt"
                 }
             }
         },
@@ -172,7 +172,7 @@
                 "arxiv": "https://arxiv.org/abs/2001.00986",
                 "repImage": "./resources/papers/2015-thesis/thesis-KevinKarsch.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2015-thesis/thesis-KevinKarsch.bib"
+                    "bibtex": "./resources/papers/2015-thesis/thesis-KevinKarsch.txt"
                 }
             }
         },
@@ -185,7 +185,7 @@
                 "repImage": "./resources/papers/2015-arxiv/tr15-drinks-teaser.jpg",
                 "extras": {
                     "video": "https://www.youtube.com/watch?v=DTiw0A_jdsM",
-                    "bibtex": "./resources/papers/2015-arxiv/tr15-drinks-teaser.bib"
+                    "bibtex": "./resources/papers/2015-arxiv/tr15-drinks-teaser.txt"
                 }
             }
         },
@@ -201,7 +201,7 @@
                     "video": "https://vimeo.com/46404667",
                     "supplemental": "https://www.dropbox.com/s/m52hs2viwylc8qk/eccv12-depthtransfer-supp.pdf?raw=1",
                     "slides": "https://www.dropbox.com/s/w0u9bd98yti07d0/eccv12-depthtransfer-slides.pdf?raw=1",
-                    "bibtex": "./resources/papers/2014-tpami/tpami14-depthtransfer.bib"
+                    "bibtex": "./resources/papers/2014-tpami/tpami14-depthtransfer.txt"
                 }
             }
         },
@@ -217,7 +217,7 @@
                     "supplemental": "https://www.dropbox.com/s/hpxjhz4ka893muy/tog14-auto_illum-supp.pdf?raw=1",
                     "slides": "https://www.dropbox.com/s/bbhazxclrbwjnnf/tog14-auto_illum-ppt.pdf?raw=1",
                     "data": "https://github.com/kevinkarsch/auto-scene-inference-data",
-                    "bibtex": "./resources/papers/2014-tog/tog14-auto_illum.bib"
+                    "bibtex": "./resources/papers/2014-tog/tog14-auto_illum.txt"
                 }
             }
         },
@@ -233,7 +233,7 @@
                     "video2": "https://vimeo.com/106554473",
                     "supplemental": "https://www.dropbox.com/s/huhmkvytduqw84t/sa14-constructaide-supp.pdf?raw=1",
                     "slides": "https://www.dropbox.com/s/4geod4ypk8lmt7o/sa14-constructaide-pptx.pdf?raw=1",
-                    "bibtex": "./resources/papers/2014-sa/sa14-constructaide.bib"
+                    "bibtex": "./resources/papers/2014-sa/sa14-constructaide.txt"
                 }
             }
         },
@@ -247,7 +247,7 @@
                 "extras": {
                     "supplemental": "https://www.dropbox.com/s/ozohe42h19mrlqb/sa14_isu-materials-supp.pdf?raw=1",
                     "slides": "https://www.dropbox.com/s/mjy2skh0t1mpqze/sa14_isu-materials-pptx.pdf?raw=1",
-                    "bibtex": "./resources/papers/2014-sa_isu/sa14_isu-materials.bib"
+                    "bibtex": "./resources/papers/2014-sa_isu/sa14_isu-materials.txt"
                 }
             }
         },
@@ -262,7 +262,7 @@
                     "code": "https://github.com/kevinkarsch/boundary-cues",
                     "supplemental": "https://www.dropbox.com/s/w2xgoxhngmou2uy/cvpr13-boundarycues-supp.pdf?raw=1",
                     "poster": "https://www.dropbox.com/s/a1fwuhgd9948ro2/cvpr13-boundarycues-poster.pdf?raw=1",
-                    "bibtex": "./resources/papers/2013-cvpr/cvpr13-boundarycues.bib"
+                    "bibtex": "./resources/papers/2013-cvpr/cvpr13-boundarycues.txt"
                 }
             }
         },
@@ -287,7 +287,7 @@
                     "code": "https://github.com/kevinkarsch/rsolp",
                     "video": "https://vimeo.com/28962540",
                     "slides": "https://www.dropbox.com/s/4rjl7qp3xkcjuhx/sa11pptx.pdf?raw=1",
-                    "bibtex": "./resources/papers/2011-sa/sa11.bib"
+                    "bibtex": "./resources/papers/2011-sa/sa11.txt"
                 }
             }
         },
@@ -302,7 +302,7 @@
                     "code": "https://github.com/kevinkarsch/snaxels",
                     "video": "https://vimeo.com/26851838",
                     "slides": "https://www.dropbox.com/s/s7oka75gmv7kazg/npar11_pptx.pdf?raw=1",
-                    "bibtex": "./resources/papers/2011-npar/npar11.bib"
+                    "bibtex": "./resources/papers/2011-npar/npar11.txt"
                 }
             }
         },
@@ -314,7 +314,7 @@
                 "arxiv": "https://arxiv.org/abs/1904.09529",
                 "repImage": "./resources/papers/2011-vr/vr11.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2011-vr/vr11.bib"
+                    "bibtex": "./resources/papers/2011-vr/vr11.txt"
                 }
             }
         },
@@ -326,7 +326,7 @@
                 "paper": "https://www.dropbox.com/s/xhp2choyl4ipk9g/ijdmb11.pdf?raw=1",
                 "repImage": "./resources/papers/2011-ijdmb/ijdmb11.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2011-ijdmb/ijdmb11.bib"
+                    "bibtex": "./resources/papers/2011-ijdmb/ijdmb11.txt"
                 }
             }
         },
@@ -338,7 +338,7 @@
                 "paper": "https://www.dropbox.com/s/ajw3k8wzl8gfd4r/he-spie-10.pdf?raw=1",
                 "repImage": "./resources/papers/2010-spie/he-spie-10.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2010-spie/he-spie-10.bib"
+                    "bibtex": "./resources/papers/2010-spie/he-spie-10.txt"
                 }
             }
         },
@@ -350,7 +350,7 @@
                 "paper": "https://www.dropbox.com/s/obio9jenc051gov/he-psyn-10.pdf?raw=1",
                 "repImage": "./resources/papers/2010-psyn/he-psyn-10.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2010-psyn/he-psyn-10.bib"
+                    "bibtex": "./resources/papers/2010-psyn/he-psyn-10.txt"
                 }
             }
         },
@@ -362,7 +362,7 @@
                 "paper": "https://www.dropbox.com/s/nd06midcl9g8rpr/CCPlanarShape-SPIE09.pdf?raw=1",
                 "repImage": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.bib"
+                    "bibtex": "./resources/papers/2009-spie/CCPlanarShape-SPIE09.txt"
                 }
             }
         },
@@ -374,7 +374,7 @@
                 "paper": "https://www.dropbox.com/s/6v40xd5r6p9n0oc/he-ijcbdd-09.pdf?raw=1",
                 "repImage": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.bib"
+                    "bibtex": "./resources/papers/2009-ijcbdd/he-ijcbdd-09.txt"
                 }
             }
         },
@@ -386,7 +386,7 @@
                 "paper": "https://www.dropbox.com/s/yrmixpor7rfnlv8/CCPlanarDetect-CNME09.pdf?raw=1",
                 "repImage": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.bib"
+                    "bibtex": "./resources/papers/2009-cnme/CCPlanarDetect-CNME09.txt"
                 }
             }
         },
@@ -398,7 +398,7 @@
                 "arxiv": "https://arxiv.org/abs/1904.09978",
                 "repImage": "./resources/papers/2009-bibm/Seg3D-BIBM09.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2009-bibm/Seg3D-BIBM09.bib"
+                    "bibtex": "./resources/papers/2009-bibm/Seg3D-BIBM09.txt"
                 }
             }
         },
@@ -410,7 +410,7 @@
                 "paper": "https://www.dropbox.com/s/uuowb6366dxyc93/AutoSeg-ISVC08.pdf?raw=1",
                 "repImage": "./resources/papers/2008-isvc/AutoSeg-ISVC08.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2008-isvc/AutoSeg-ISVC08.bib"
+                    "bibtex": "./resources/papers/2008-isvc/AutoSeg-ISVC08.txt"
                 }
             }
         },
@@ -422,7 +422,7 @@
                 "arxiv": "https://arxiv.org/abs/1904.09977",
                 "repImage": "./resources/papers/2008-embc/BVCalc-EMBC08.png",
                 "extras": {
-                    "bibtex": "./resources/papers/2008-embc/BVCalc-EMBC08.bib"
+                    "bibtex": "./resources/papers/2008-embc/BVCalc-EMBC08.txt"
                 }
             }
         },
@@ -434,7 +434,7 @@
                 "paper": "https://www.dropbox.com/s/2sg403azzngdt3c/CCAbnorm-EMBC08.pdf?raw=1",
                 "repImage": "./resources/papers/2008-embc/CCAbnorm-EMBC08.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2008-embc/CCAbnorm-EMBC08.bib"
+                    "bibtex": "./resources/papers/2008-embc/CCAbnorm-EMBC08.txt"
                 }
             }
         },
@@ -446,7 +446,7 @@
                 "paper": "https://www.dropbox.com/s/5mmbbw48lgkn7c1/ThalamCylindrical-ISVC08.pdf?raw=1",
                 "repImage": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.bib"
+                    "bibtex": "./resources/papers/2008-isvc/ThalamCylindrical-ISVC08.txt"
                 }
             }
         },
