@@ -11,6 +11,9 @@ outputWebpage = os.path.join(thisDir, "..", "index.html")
 
 
 # Helpers ----------------------------------------------------------------------
+def makeLink(text, url):
+    return '<a href="{}" target="_blank">{}</a>'.format(url, text)
+
 def findAuthor(authorName, fullAuthorList):
     for authorData in fullAuthorList:
         if "name" in authorData:
@@ -25,7 +28,7 @@ def generateLinkedAuthorList(paperAuthorList, fullAuthorList):
         if authorName.lower() == "kevin karsch": # Case insensitive just in case
             linkedAuthorList.append('<b>Kevin Karsch</b>') # No need to link to the website we're already on
         elif authorData and "website" in authorData:
-            linkedAuthorList.append('<a href="{website}">{name}</a>'.format(website = authorData["website"], name = authorName))
+            linkedAuthorList.append(makeLink(text = authorName, url = authorData["website"]))
         else:
             linkedAuthorList.append(authorName)
     return linkedAuthorList
@@ -51,7 +54,7 @@ linksHtmlSnippets = []
 for linkObject in linksList:
     name = linkObject["name"]
     link = linkObject["link"]
-    linksHtmlSnippets.append('<a href="{link}">{name}</a>'.format(link = link, name = name))
+    linksHtmlSnippets.append(makeLink(text = name, url = link))
 
 
 papersHtmlSnippets = []
@@ -73,7 +76,7 @@ for paper in fullPaperList:
     extrasList = []
     if isinstance(extraLinks, dict):
         for name, link in extraLinks.items():
-            extrasList.append('<a href="{link}">{name}</a>'.format(link = link, name = name))
+            extrasList.append(makeLink(text = name, url = link))
 
     # Format notes (if any)
     notesHtml = '      <p class="small">{}</p>\n'.format(paperNotes) if paperNotes else ""
@@ -82,10 +85,10 @@ for paper in fullPaperList:
     papersHtmlSnippets.append([
         '<div class="row mt-4 align-items-center">\n', #add top pad, align column content vertical center
         '  <div class="col-4 d-none d-md-block">\n', #hide if less than md
-        '    <img class="img-fluid rounded mx-auto d-block" width="200px" src="{rep_image_link}">\n'.format(rep_image_link = repImageLink),
+        '    <img class="img-fluid rounded mx-auto d-block" width="100%" src="{rep_image_link}">\n'.format(rep_image_link = repImageLink),
         '  </div>\n',
         '  <div class="col-xs-12 col-md-8">\n', #8 if md, 12 if less
-        '      <p class="lead"><a href="{paper_link}">{paper_title}</a></p>\n'.format(paper_link = paperLink, paper_title = paperTitle),
+        '      <p class="lead">{paper_link}</p>\n'.format(paper_link = makeLink(text = paperTitle, url = paperLink)),
         '      <p>{author_list}</p>\n'.format(author_list = ", ".join(authorList)),
         '      <p><i>{venue}</i></p>\n'.format(venue = paperVenue),
         '      <p>{extras}</p>\n'.format(extras = (" | ").join(extrasList)),
@@ -115,7 +118,7 @@ for patent in fullPatentList:
     patentsHtmlSnippets.append([
         '<div class="row mt-4">\n',
         '  <div class="col-12">\n',
-        '    <p class="lead"><a href="{patent_link}">{patent_title}</a></p>\n'.format(patent_link = patentLink, patent_title = patentTitle),
+        '    <p class="lead">{patent_link}</p>\n'.format(patent_link = makeLink(text = patentTitle, url = patentLink)),
         '    <p>{author_list}</p>\n'.format(author_list = ", ".join(authorList)),
         '    <p>Patent No. {patent_no}</p>\n'.format(patent_no = patentNumber),
         '  </div>\n',
