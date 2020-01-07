@@ -108,7 +108,7 @@
                 "arxiv": "https://arxiv.org/abs/1804.07514",
                 "repImage": "./resources/papers/2019-ijcv/shadingdecomp-ijcv19.jpg",
                 "extras": {
-                    "bibtex": "./resources/papers/2019-ijcv/shadingdecomp-ijcv19.bib"
+                    "bibtex": "./resources/papers/2019-ijcv/shadingdecomp-ijcv19.txt"
                 }
             }
         },
