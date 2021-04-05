@@ -841,37 +841,37 @@
     "experience": [
         {
             "where": "Lightform",
-            "role": "Co-Founder, CTO",
+            "role": "Co-founder, CTO",
             "years": "2014-Present",
             "bullets": [
-                "Company highlights:",
+                "{\\bf Company highlights}:",
                 [
-                    "Shipped four AR products to customers, including the first all-in-one AR projector",
+                    "Shipped multiple AR products to customers, including the first all-in-one AR projector",
                     "Patented novel research prototypes, most notably a steerable, smart-home projection device",
                     "Acquired $>$10k customers since the initial hardware launch in 2018"
                 ],
-                "As an executive, helped define company vision, direction, and culture:",
+                "As an {\\bf executive}, helped define company vision, direction, and culture:",
                 [
                     "Responsible for company technical decisions and deadlines",
-                    "Voting member of the board of directors",
-                    "Directed the development of Lightform's IP portfolio"
+                    "Directed the development of Lightform's IP portfolio",
+                    "Voting member of the board of directors"
                 ],
-                "As a manager, directed technical projects involving software, firmware, and hardware:",
+                "As a {\\bf manager}, directed software projects with various team sizes and experience levels:",
                 [
-                    "Engaged with customers, product owners, and stakeholders to define and revise the product roadmap",
-                    "Shipped products at a yearly pace with a small ($<10$) engineering team",
+                    "Engaged daily with customers and stakeholders to define and revise the product roadmap",
+                    "Shipped new products annually while maintaining legacy product compatibility",
                     "Implemented scrum practices and processes for iterative development"
                 ],
-                "As a research engineer, developed several proprietary / patented algorithms:",
+                "As a {\\bf research engineer}, developed proprietary and patented algorithms:",
                 [
                     "A structured light technique using low-cost hardware, tolerant to harsh conditions",
                     "Automatic alignment and re-alignment techniques for projected AR",
                     "Negative space detection and automatic perspective warping"
                 ],
-                "As a software engineer, contributed multi-platform production code in use by customers:",
+                "As a {\\bf software engineer}, contributed multi-platform production code in use by customers:",
                 [
-                    "Developed and maintained the application layer running on Lightform devices",
-                    "Implemented graphics/UI/network components and infrastructure for Lightform Creator",
+                    "Developed and maintained the application layer running on Lightform embedded devices",
+                    "Implemented graphics/UI/network components and infrastructure for Lightform desktop software",
                     "Performed regular code reviews, and mentored junior developers"
                 ]
             ],
@@ -879,7 +879,7 @@
         },
         {
             "where": "Subliminl",
-            "role": "Co-Founder",
+            "role": "Co-founder",
             "years": "2012-2014",
             "bullets": [
                 "Developed applications for seamlessly inserting advertisements into images and video",
