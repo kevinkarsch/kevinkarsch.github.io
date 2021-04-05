@@ -482,14 +482,20 @@
             "pending": true
         },
         {
+            "title": "Method for augmenting changes in a space with ambient, responsive visual interfaces",
+            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
+            "pending": true
+        },
+        {
             "title": "Method for augmenting surfaces in a space with visual content",
             "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
             "pending": true
         },
         {
-            "title": "Method for augmenting changes in a space with ambient, responsive visual interfaces",
-            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
-            "pending": true
+            "title": "System and methods for augmenting surfaces within spaces with projected light",
+            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny"],
+            "link": "https://patents.google.com/patent/US10805585B2",
+            "patentNumber": "US10805585B2"
         },
         {
             "title": "Method for augmenting a scene in real space with projected visual content",
@@ -516,7 +522,7 @@
             "patentNumber": "US9471967B2"
         },
         {
-            "title": "Relighting fragments for insertion into content",
+            "title": "Automatic 2D-to-stereoscopic video conversion",
             "authors": ["Kevin Karsch", "Ce Liu", "Sing Bing Kang"],
             "link": "https://patents.google.com/patent/US9414048B2",
             "patentNumber": "US9414048B2"
@@ -1014,10 +1020,10 @@
         ],
         "libraries": [
             "OpenCV",
+            "Qt/QML",
             "OpenGL/GLES",
             "PCL",
             "Libav/FFmpeg",
-            "Qt/QML",
             "Tensorflow"
         ],
         "software": [
