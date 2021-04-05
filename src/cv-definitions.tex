@@ -2,7 +2,7 @@
 % CV definitions
 %============================================================================%
 
-\documentclass[10pt,letterpaper]{article}	
+\documentclass[10pt,letterpaper]{article}
 
 \pagestyle{empty} % No page numbers
 
@@ -33,20 +33,20 @@
 \usepackage{color,soul}
 
 % More font size definitions
-\usepackage{moresize}		
+\usepackage{moresize}
 
 % Use fontawesome icons
 \usepackage{fontawesome}
 
 % Don't allow hyphenation (https://tex.stackexchange.com/questions/5036/how-to-prevent-latex-from-hyphenating-the-entire-document)
-\usepackage[none]{hyphenat} 
+\usepackage[none]{hyphenat}
 
 %----------------------------------------------------------------------------------------
 % Page layout definitions
 %----------------------------------------------------------------------------------------
 
 % Define page styles using geometry
-\usepackage[letterpaper]{geometry}		
+\usepackage[letterpaper]{geometry}
 \geometry{top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}
 
 % Zero indentation for lists
@@ -54,16 +54,16 @@
 
 %----------------------------------------------------------------------------------------
 % Graphics definitions
-%---------------------------------------------------------------------------------------- 
+%----------------------------------------------------------------------------------------
 
-% Drawing graphics		
-\usepackage{tikz}				
+% Drawing graphics
+\usepackage{tikz}
 \usetikzlibrary{shapes, backgrounds, mindmap, trees}
 
 
 %----------------------------------------------------------------------------------------
 % Color definitions
-%---------------------------------------------------------------------------------------- 
+%----------------------------------------------------------------------------------------
 
 \usepackage{transparent}
 \usepackage{color}
@@ -75,7 +75,8 @@
 \definecolor{backgroundColor}{RGB}{110,110,110}
 
 % Light background / accent color
-\definecolor{softColor}{RGB}{225,225,225}
+\definecolor{softColor}{RGB}{200,200,200}
+\definecolor{softerColor}{RGB}{225,225,225}
 
 % Package for links, must be the last package used
 \usepackage[hidelinks]{hyperref}
@@ -135,6 +136,12 @@
 \begin{itemize} \item[\larrow{softColor}] #1 \end{itemize}
 }
 
+% \cvEventBulletSub{Sentence}
+\newcommand{\cvEventBulletSub}[1]
+{
+\begin{itemize} \item[] \begin{itemize} \item[\larrow{softerColor}] #1 \end{itemize} \end{itemize}
+}
+
 % \begin{sidebarSection}[underlineColor=white]{Title} \end{sidebarSection}
 \newenvironment{sidebarSection}[2][white]
 {
@@ -166,4 +173,3 @@
 {
     \centering{\icon{#1}{#2}{#5}} \href{#4}{\textcolor{black}{#3}}
 }
-

@@ -836,12 +836,38 @@
         {
             "where": "Lightform",
             "role": "Co-Founder, CTO",
-            "years": "2015-Present",
+            "years": "2014-Present",
             "bullets": [
-                "Leading the technical divisions of the company: software, hardware and research",
-                "Project manager and individual contributor for software development and research",
-                "Additional responsibilities include hiring, IP, company direction and board member",
-                "Products Developed: LF1, LFC, LF2, Lightform Creator"
+                "Company highlights:",
+                [
+                    "Shipped four AR products to customers, including the first all-in-one AR projector",
+                    "Patented novel research prototypes, most notably a steerable, smart-home projection device",
+                    "Acquired $>$10k customers since the initial hardware launch in 2018"
+                ],
+                "As an executive, helped define company vision, direction, and culture:",
+                [
+                    "Responsible for company technical decisions and deadlines",
+                    "Voting member of the board of directors",
+                    "Directed the development of Lightform's IP portfolio"
+                ],
+                "As a manager, directed technical projects involving software, firmware, and hardware:",
+                [
+                    "Engaged with customers, product owners, and stakeholders to define and revise the product roadmap",
+                    "Shipped products at a yearly pace with a small ($<10$) engineering team",
+                    "Implemented scrum practices and processes for iterative development"
+                ],
+                "As a research engineer, developed several proprietary / patented algorithms:",
+                [
+                    "A structured light technique using low-cost hardware, tolerant to harsh conditions",
+                    "Automatic alignment and re-alignment techniques for projected AR",
+                    "Negative space detection and automatic perspective warping"
+                ],
+                "As a software engineer, contributed multi-platform production code in use by customers:",
+                [
+                    "Developed and maintained the application layer running on Lightform devices",
+                    "Implemented graphics/UI/network components and infrastructure for Lightform Creator",
+                    "Performed regular code reviews, and mentored junior developers"
+                ]
             ],
             "tag": "lightform"
         },

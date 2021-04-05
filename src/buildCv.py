@@ -77,7 +77,11 @@ with open(cvTexGenerated, "w") as generatedTex:
                 bullets = item["bullets"]
                 generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
                 for bullet in bullets:
-                    generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
+                    if isinstance(bullet, list):
+                        for subbullet in bullet:
+                            generatedTex.write("\\cvEventBulletSub{{{}}}\n".format(subbullet))
+                    else:
+                        generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
                 generatedTex.write("\\end{cvEvent}\n\n")
         elif line.strip() == "{{teaching-placeholder}}":
             for item in teaching:
