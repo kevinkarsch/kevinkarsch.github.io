@@ -118,38 +118,38 @@
 % \begin{cvSection}{Title} \end{cvSection}
 \newenvironment{cvSection}[1]
 {
-    \vspace{6pt}
+    \vspace{2pt}
     {\large\textbf{{\uppercase{#1}}}}
     \vspace{6pt}
 }
 {
-    \vspace{13pt}
+    \vspace{12pt}
 }
 
 % \begin{cvEvent}[underlineColor]{Title, Company, Years} \end{cvEvent}
 \newenvironment{cvEvent}[4][softColor]
 {
-    \vspace{3pt}
+    \vspace{2pt}
     \textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
     \vspace{5pt}
     \textcolor{#1}{\hrule}
     \vspace{5pt}
 }
 {
-    \vspace{10pt}
+    \vspace{9pt}
 }
 
 % \begin{cvEventNoYears}[underlineColor]{Title, Company} \end{cvEventNoYears}
 \newenvironment{cvEventNoYears}[3][softColor]
 {
-    \vspace{3pt}
+    \vspace{2pt}
     \textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}
     \vspace{5pt}
     \textcolor{#1}{\hrule}
     \vspace{5pt}
 }
 {
-    \vspace{10pt}
+    \vspace{9pt}
 }
 
 % \cvEventBullet{Sentence}

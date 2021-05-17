@@ -819,16 +819,17 @@
             "years": "2009-2015",
             "bullets": [
                 "Thesis: Inverse Rendering Techniques for Physically Grounded Image Editing",
+                "Topics: Computer Vision, Computer Graphics, Machine Learning, Numerical Optimization", 
                 "Advisors: David Forsyth, Derek Hoiem"
             ],
             "tag": "grad"
         },
         {
             "where": "University of Missouri-Columbia",
-            "degree": "BS in Math, Computer Science",
+            "degree": "BS in Mathematics, Computer Science",
             "years": "2005-2009",
             "bullets": [
-                "Summa Cum Laude with Departmental Honors in Math and Computer Science"
+                "Summa Cum Laude with Departmental Honors in Mathematics and Computer Science"
             ],
             "tag": "undergrad"
         }
@@ -1031,12 +1032,25 @@
             "PCL",
             "Tensorflow"
         ],
+        "languages": [
+            "C/C++ (11/14/17)",
+            "Python",
+            "Matlab"
+        ],
+        "build": [
+            "CMake",
+            "Conan",
+            "Docker",
+            "Yocto",
+            "Jenkins"
+        ],
         "software": [
             "Git",
             "Jira",
-            "Blender",
             "Figma",
-            "Adobe Ps/Ae/Ai/Dn"
+            "Adobe Ps/Ae/Ai/Dn",
+            "Blender",
+            "Unity"
         ],
         "project management": [
             "Scrum",
