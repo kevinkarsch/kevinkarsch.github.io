@@ -89,7 +89,7 @@
 % \larrow{fillColor}
 \newcommand{\larrow}[1]
 {\begin{tikzpicture}[scale=0.58]
-	 \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;
+     \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;
  \end{tikzpicture}
 }
 
@@ -97,42 +97,65 @@
 % \larrow{fillColor}
 \newcommand{\lightform}[1]
 {\begin{tikzpicture}[scale=0.008]
-	 \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (30,0) -- (30.0,26.5) -- (22.5,7.5) -- (7.5,7.5) -- (7.5,22.5) -- (26.5,30.0) -- (0,30) -- cycle;
+     \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (30,0) -- (30.0,26.5) -- (22.5,7.5) -- (7.5,7.5) -- (7.5,22.5) -- (26.5,30.0) -- (0,30) -- cycle;
  \end{tikzpicture}
 }
 
 
 %----------------------------------------------------------------------------------------
-%	Custom sections
+% Custom sections
 %----------------------------------------------------------------------------------------
+
+% \begin{noPageBreakBox} <stuff that won't be broken across pages> \end{noPageBreakBox}
+\newenvironment{noPageBreakBox}
+{
+    \par\noindent\begin{minipage}{\linewidth}
+}
+{
+    \end{minipage}\par
+}
 
 % \begin{cvSection}{Title} \end{cvSection}
 \newenvironment{cvSection}[1]
 {
-	\vspace{6pt}
-	{\large\textbf{{\uppercase{#1}}}}
-	\vspace{6pt}
+    \vspace{6pt}
+    {\large\textbf{{\uppercase{#1}}}}
+    \vspace{6pt}
 }
 {
-	\vspace{12pt}
+    \vspace{13pt}
 }
 
 % \begin{cvEvent}[underlineColor]{Title, Company, Years} \end{cvEvent}
 \newenvironment{cvEvent}[4][softColor]
 {
-	\vspace{3pt}
-	\textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
-	\vspace{5pt}
-	\textcolor{#1}{\hrule}
-	\vspace{5pt}
+    \vspace{3pt}
+    \textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}, \textcolor{backgroundColor}{#4}
+    \vspace{5pt}
+    \textcolor{#1}{\hrule}
+    \vspace{5pt}
 }
 {
-	\vspace{9pt}
+    \vspace{10pt}
+}
+
+% \begin{cvEventNoYears}[underlineColor]{Title, Company} \end{cvEventNoYears}
+\newenvironment{cvEventNoYears}[3][softColor]
+{
+    \vspace{3pt}
+    \textcolor{black}{\textbf{#2}} \hfill \textcolor{black}{#3}
+    \vspace{5pt}
+    \textcolor{#1}{\hrule}
+    \vspace{5pt}
+}
+{
+    \vspace{10pt}
 }
 
 % \cvEventBullet{Sentence}
 \newcommand{\cvEventBullet}[1]
 {
+\nopagebreak
 \begin{itemize} \item[\larrow{softColor}] #1 \end{itemize}
 }
 
@@ -145,14 +168,14 @@
 % \begin{sidebarSection}[underlineColor=white]{Title} \end{sidebarSection}
 \newenvironment{sidebarSection}[2][white]
 {
-	\begin{center}
-	\setulcolor{#1}
-	\setul{7pt}{.4pt}% 7pt to make this roughly match the hrule from \cvEventHeader
-	\textcolor{black}{\large{\uppercase{\ul{#2}}}}\\[8pt]
+    \begin{center}
+    \setulcolor{#1}
+    \setul{7pt}{.4pt}% 7pt to make this roughly match the hrule from \cvEventHeader
+    \textcolor{black}{\large{\uppercase{\ul{#2}}}}\\[8pt]
 }
 {
-	\end{center}
-	\vspace{12pt}
+    \end{center}
+    \vspace{12pt}
 }
 
 %----------------------------------------------------------------------------------------
@@ -161,12 +184,12 @@
 
 \newcommand{\icon}[3] % icon helper
 {
-	\textcolor{#3}{\csname #1\endcsname}
+    \textcolor{#3}{\csname #1\endcsname}
 }
 
 \newcommand{\icontext}[4] % icon next to text
 {
-	\centering{\icon{#1}{#2}{#4}} \textcolor{black}{#3}
+    \centering{\icon{#1}{#2}{#4}} \textcolor{black}{#3}
 }
 
 \newcommand{\iconhref}[5] % icon next text with link

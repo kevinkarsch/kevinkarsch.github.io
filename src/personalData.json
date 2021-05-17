@@ -477,16 +477,6 @@
     ],
     "patents" : [
         {
-            "title": "System for projecting spatially-referenced content within a space",
-            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Phil Reyneri", "Douglas Rieck", "Pulkit Budhiraja"],
-            "pending": true
-        },
-        {
-            "title": "Method for augmenting changes in a space with ambient, responsive visual interfaces",
-            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
-            "pending": true
-        },
-        {
             "title": "Method for augmenting surfaces in a space with visual content",
             "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
             "pending": true
@@ -698,6 +688,11 @@
     ],
     "press" : [
         {
+            "title": "Lightform Turning Surfaces Into Screens",
+            "link": "https://www.forbes.com/sites/charliefink/2021/05/04/lightform-turning-surfaces-into-screens",
+            "tag": "lightform"
+        },
+        {
             "title": "No Headset Required: Lightform Is AR In The Real World",
             "link": "https://www.forbes.com/sites/charliefink/2018/11/01/no-headset-required-lightform-is-ar-in-the-real-world",
             "tag": "lightform"
@@ -729,25 +724,25 @@
         },
         {
             "title": "Projection AR to make every surface come alive! Our investment in Lightform.",
-            "link": "https://medium.com/@lux{\\_}capital/projection-ar-to-make-every-surface-come-alive-our-investment-in-lightform-7c9c0d5dc5c6",
+            "link": "https://medium.com/lux-capital/projection-ar-to-make-every-surface-come-alive-our-investment-in-lightform-7c9c0d5dc5c6",
             "tag": "lightform"
         },
         {
             "title": "How to Grab a Drink Without Leaving Virtual Reality.",
             "pubInfo": "Discover Magazine (online), Feb 2015.",
-            "link": "http://blogs.discovermagazine.com/lovesick-cyborg/2015/02/27/grab-drink-without-leaving-virtual-reality",
+            "link": "https://www.discovermagazine.com/technology/how-to-grab-a-drink-without-leaving-virtual-reality",
             "tag": "grad"
         },
         {
             "title": "Student Startup Lumenous Brings Projection Mapping Out of the Arena",
             "pubInfo": "CS @ Illinois Press, June 2014.",
-            "link": "https://www.wired.com/2017/04/lightform-magical-little-device-transforms-whole-rooms-screens/",
+            "link": "https://cs.illinois.edu/news/student-startup-lumenous-brings-projection-mapping-out-arena",
             "tag": "lightform"
         },
         {
             "title": "Wearable Device Technology \\& Projection Mapping Startup Win Top Prizes at Cozad New Venture Competition.",
             "pubInfo": "UIUC Press Release, April 2014.",
-            "link": "http://tec.illinois.edu/resources/news/wearable-device-technology-projection-mapping-startup-win-top-prizes-cozad-new-venture",
+            "link": "https://tec.illinois.edu/news/wearable-device-technology-projection-mapping-startup-win-top-prizes-cozad-new-venture",
             "tag": "lightform"
         },
         {
@@ -783,7 +778,7 @@
         {
             "title": "Smart Image Editor Adds Fake Objects to Photos.",
             "pubInfo": "New Scientist, Dec 2011.",
-            "link": "http://www.newscientist.com/blogs/nstv/2011/12/smart-image-editor-adds-fake-objects-to-photos.html",
+            "link": "https://web.archive.org/web/20170908200958/http://www.newscientist.com/blogs/nstv/2011/12/smart-image-editor-adds-fake-objects-to-photos.html",
             "tag": "grad"
         },
         {
@@ -799,15 +794,15 @@
             "tag": "grad"
         },
         {
-            "title": "Kevin Karsch, Image Aventurer.",
+            "title": "Kevin Karsch, Image Adventurer.",
             "pubInfo": "Daily Brink, Oct 2011.",
-            "link": "http://www.dailybrink.com/?p=2590",
+            "link": "https://web.archive.org/web/20160421055123/http://www.dailybrink.com/?p=2590",
             "tag": "grad"
         },
         {
             "title": "New Technology Can Convert Pictures into 3-D Images.",
             "pubInfo": "Daily Illini, Oct 2011.",
-            "link": "http://www.dailyillini.com/news/article_d2b49944-a418-5490-9ab8-ff810f20ee9b.html",
+            "link": "https://dailyillini.com/news/2011/10/28/new-technology-can-convert-pictures-into-3-d-images-2/",
             "tag": "grad"
         },
         {
@@ -846,33 +841,36 @@
             "bullets": [
                 "{\\bf Company highlights}:",
                 [
-                    "Shipped multiple AR products to customers, including the first all-in-one AR projector",
-                    "Patented novel research prototypes, most notably a steerable, smart-home projection device",
-                    "Acquired $>$10k customers since the initial hardware launch in 2018"
+                    "Delivered multiple AR products from conception to shipping, including the first all-in-one AR projector",
+                    "Developed the most consumer-friendly projected AR software on the market today",
+                    "Patented novel research, including core company IP and a smart-home projection device",
+                    "Acquired 11,000+ customers in two years since Lightform's first hardware product release"
                 ],
-                "As an {\\bf executive}, helped define company vision, direction, and culture:",
+                "As an {\\bf executive}, defined company vision, direction, and culture:",
                 [
                     "Responsible for company technical decisions and deadlines",
                     "Directed the development of Lightform's IP portfolio",
                     "Voting member of the board of directors"
                 ],
-                "As a {\\bf manager}, directed software projects with various team sizes and experience levels:",
+                "As an {\\bf engineering manager}, supervised projects with various team sizes and experience levels:",
                 [
-                    "Engaged daily with customers and stakeholders to define and revise the product roadmap",
-                    "Shipped new products annually while maintaining legacy product compatibility",
-                    "Implemented scrum practices and processes for iterative development"
+                    "Engaged regularly with customers, analytics and stakeholders to define and revise product roadmap",
+                    "Promoted exceptional team members into leadership roles for new product initiatives",
+                    "Shipped new products annually while maintaining legacy product compatibility for existing customers",
+                    "Installed processes and implemented scrum practices for iterative development"
                 ],
-                "As a {\\bf research engineer}, developed proprietary and patented algorithms:",
+                "As a {\\bf research engineer}, developed and patented proprietary algorithms:",
                 [
                     "A structured light technique using low-cost hardware, tolerant to harsh conditions",
                     "Automatic alignment and re-alignment techniques for projected AR",
-                    "Negative space detection and automatic perspective warping"
+                    "Negative space detection and automatic perspective warping for projection"
                 ],
                 "As a {\\bf software engineer}, contributed multi-platform production code in use by customers:",
                 [
-                    "Developed and maintained the application layer running on Lightform embedded devices",
+                    "Developed and maintained the application layer running on Lightform devices",
                     "Implemented graphics/UI/network components and infrastructure for Lightform desktop software",
-                    "Performed regular code reviews, and mentored junior developers"
+                    "Regularly contributed features and patches across all Lightform products",
+                    "Performed regular code reviews and mentored junior developers"
                 ]
             ],
             "tag": "lightform"
@@ -882,8 +880,8 @@
             "role": "Co-founder",
             "years": "2012-2014",
             "bullets": [
-                "Developed applications for seamlessly inserting advertisements into images and video",
-                "Created a method for inserting animations into existing video content"
+                "Developed a mobile application for seamlessly inserting advertisements into images and video",
+                "Created a method for inserting 2D animations into existing video content"
             ],
             "tag": "grad"
         },
@@ -893,7 +891,7 @@
             "years": "2012-2014",
             "bullets": [
                 "Developed software for displaying glasses-free, 3D media via autostereoscopy",
-                "Made an algorithm that synthesized extreme viewpoints from stereo images and videos"
+                "Created an algorithm to synthesize extreme viewpoints from stereo images and videos"
             ],
             "tag": "grad"
         },
@@ -943,8 +941,8 @@
             "years": "2008-2009",
             "bullets": [
                 "Led a team of four students to implement a unique news-based iPhone application (Newsflash)",
-                "Newsflash App awarded \"People's Choice Award\" by RJI's Futures Lab",
-                "Learned modern development techniques from engineers at Apple Headquarters"
+                "Newsflash App awarded \"People's Choice Award\" by Reynolds Institute's Futures Lab",
+                "Learned iOS development techniques from engineers at Apple Headquarters"
             ],
             "tag": "undergrad"
         },
@@ -1012,6 +1010,13 @@
             "tag": "undergrad"
         }
     ],
+    "service" : [
+        {
+            "title": "Reviewer",
+            "details": "CVPR, ECCV, ICCV, SIGGRAPH, SIGGRAPH Asia, TPAMI, IJCV",
+            "years": "2012-Present"
+        }
+    ],
     "skills": {
         "languages": [
             "C/C++",
@@ -1022,8 +1027,8 @@
             "OpenCV",
             "Qt/QML",
             "OpenGL/GLES",
-            "PCL",
             "Libav/FFmpeg",
+            "PCL",
             "Tensorflow"
         ],
         "software": [

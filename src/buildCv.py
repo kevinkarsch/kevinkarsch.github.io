@@ -45,6 +45,7 @@ patents = personalData["patents"]
 bookchapters = personalData["bookchapters"]
 teaching = personalData["teaching"]
 funding = personalData["funding"]
+service = personalData["service"]
 awards = personalData["awards"]
 press = personalData["press"]
 skills = personalData["skills"]
@@ -65,16 +66,19 @@ with open(cvTexGenerated, "w") as generatedTex:
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
-                generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(degree, where, years))
+                #generatedTex.write("\\begin{noPageBreakBox}\n")
+                generatedTex.write("\\begin{{cvEventNoYears}}{{{}}}{{{}}}\n".format(degree, where))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
-                generatedTex.write("\\end{cvEvent}\n\n")
+                generatedTex.write("\\end{cvEventNoYears}\n\n")
+                #generatedTex.write("\\end{noPageBreakBox}\n")
         elif line.strip() == "{{experience-placeholder}}":
             for item in experience:
                 role = item["role"]
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
+                #generatedTex.write("\\begin{noPageBreakBox}\n")
                 generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
                 for bullet in bullets:
                     if isinstance(bullet, list):
@@ -83,16 +87,19 @@ with open(cvTexGenerated, "w") as generatedTex:
                     else:
                         generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
                 generatedTex.write("\\end{cvEvent}\n\n")
+                #generatedTex.write("\\end{noPageBreakBox}\n")
         elif line.strip() == "{{teaching-placeholder}}":
             for item in teaching:
                 role = item["role"]
                 where = item["where"]
                 years = item["years"]
                 bullets = item["bullets"]
+                #generatedTex.write("\\begin{noPageBreakBox}\n")
                 generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
                 generatedTex.write("\\end{cvEvent}\n\n")
+                #generatedTex.write("\\end{noPageBreakBox}\n")
         elif line.strip() == "{{publications-placeholder}}":
             for item in publications:
                 title = item["title"]
@@ -129,6 +136,13 @@ with open(cvTexGenerated, "w") as generatedTex:
                 years = item["years"]
                 fundingString = "{}. {{\it {}}}, {}.".format(award, name, years)
                 generatedTex.write("\\cvEventBullet{{{}}}\n".format(fundingString))
+        elif line.strip() == "{{service-placeholder}}":
+            for item in service:
+                title = item["title"]
+                details = item["details"]
+                years = item["years"]
+                serviceString = "{}. {{\it {}}}, {}.".format(title, details, years)
+                generatedTex.write("\\cvEventBullet{{{}}}\n".format(serviceString))
         elif line.strip() == "{{awards-placeholder}}":
             for item in awards:
                 name = item["name"]
@@ -145,8 +159,10 @@ with open(cvTexGenerated, "w") as generatedTex:
                 pubInfo = item.get("pubInfo", None)
                 link = item["link"]
                 pressString = "\\href{{{}}}{{{}}}".format(link, title)
-                if pubInfo:
-                    pressString += " {}".format(pubInfo)
+                if "dead-link" in item and item["dead-link"]:
+                    continue # skip links that don't work
+                # if pubInfo:
+                #     pressString += " {}".format(pubInfo)
                 generatedTex.write("\\cvEventBullet{{{}}}\n".format(pressString))
         elif line.strip() == "{{skills-placeholder}}":
             for key, value in skills.items():
