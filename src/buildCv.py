@@ -68,6 +68,9 @@ with open(cvTexGenerated, "w") as generatedTex:
                 bullets = item["bullets"]
                 #generatedTex.write("\\begin{noPageBreakBox}\n")
                 generatedTex.write("\\begin{{cvEventNoYears}}{{{}}}{{{}}}\n".format(degree, where))
+                if "brief" in item:
+                    generatedTex.write("{{\\it {{{}}} }}\n".format(item["brief"]))
+                    generatedTex.write("\\vspace{{1mm}}\n")
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
                 generatedTex.write("\\end{cvEventNoYears}\n\n")
@@ -80,25 +83,33 @@ with open(cvTexGenerated, "w") as generatedTex:
                 bullets = item["bullets"]
                 #generatedTex.write("\\begin{noPageBreakBox}\n")
                 generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
+                hasSubBullets = False
+                for bullet in bullets:
+                    if isinstance(bullet, list):
+                        hasSubBullets = True
+                        break
+                    
                 for bullet in bullets:
                     if isinstance(bullet, list):
                         for subbullet in bullet:
-                            generatedTex.write("\\cvEventBulletSub{{{}}}\n".format(subbullet))
+                            generatedTex.write("\\cvEventBullet{{{}}}\n".format(subbullet))
                     else:
-                        generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
+                        if hasSubBullets:
+                            generatedTex.write("\\cvEventNoBullet{{{}}}\n".format(bullet))
+                        else:
+                            generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
                 generatedTex.write("\\end{cvEvent}\n\n")
                 #generatedTex.write("\\end{noPageBreakBox}\n")
         elif line.strip() == "{{teaching-placeholder}}":
             for item in teaching:
                 role = item["role"]
                 where = item["where"]
-                years = item["years"]
                 bullets = item["bullets"]
                 #generatedTex.write("\\begin{noPageBreakBox}\n")
-                generatedTex.write("\\begin{{cvEvent}}{{{}}}{{{}}}{{{}}}\n".format(role, where, years))
+                generatedTex.write("\\begin{{cvEventNoYears}}{{{}}}{{{}}}\n".format(role, where))
                 for bullet in bullets:
                     generatedTex.write("\\cvEventBullet{{{}}}\n".format(bullet))
-                generatedTex.write("\\end{cvEvent}\n\n")
+                generatedTex.write("\\end{cvEventNoYears}\n\n")
                 #generatedTex.write("\\end{noPageBreakBox}\n")
         elif line.strip() == "{{publications-placeholder}}":
             for item in publications:

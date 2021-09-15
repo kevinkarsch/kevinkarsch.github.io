@@ -21,7 +21,7 @@
 \usepackage{xifthen}
 
 \usepackage{enumitem}
-\setlist{itemsep=0pt, topsep=0pt, leftmargin=5mm}
+\setlist{itemsep=0pt, topsep=0pt, leftmargin=5mm, labelsep=-1mm}
 
 %----------------------------------------------------------------------------------------
 % Font
@@ -93,8 +93,18 @@
  \end{tikzpicture}
 }
 
+% \mycircle{fillColor}
+\newcommand{\mycircle}[1]
+{\textcolor{#1}{\textbullet}
+}
 
-% \larrow{fillColor}
+% \mybullet{fillColor}
+\newcommand{\mybullet}[1]
+{ 
+    \raisebox{0.25\height}[0pt][0pt] { \mycircle{#1} }
+}
+
+% \lightform{fillColor}
 \newcommand{\lightform}[1]
 {\begin{tikzpicture}[scale=0.008]
      \filldraw[fill=#1!100,draw=#1!100!black] (0,0) -- (30,0) -- (30.0,26.5) -- (22.5,7.5) -- (7.5,7.5) -- (7.5,22.5) -- (26.5,30.0) -- (0,30) -- cycle;
@@ -156,13 +166,21 @@
 \newcommand{\cvEventBullet}[1]
 {
 \nopagebreak
-\begin{itemize} \item[\larrow{softColor}] #1 \end{itemize}
+\begin{itemize} \item[\mybullet{softColor}] #1 \end{itemize}
+}
+
+\newcommand{\cvEventNoBullet}[1]
+{
+\nopagebreak
+\vspace{0.5mm}
+#1
+\vspace{0.5mm}
 }
 
 % \cvEventBulletSub{Sentence}
 \newcommand{\cvEventBulletSub}[1]
 {
-\begin{itemize} \item[] \begin{itemize} \item[\larrow{softerColor}] #1 \end{itemize} \end{itemize}
+\begin{itemize} \item[] \begin{itemize} \item[\mybullet{softerColor}] #1 \end{itemize} \end{itemize}
 }
 
 % \begin{sidebarSection}[underlineColor=white]{Title} \end{sidebarSection}

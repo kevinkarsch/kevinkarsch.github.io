@@ -477,21 +477,16 @@
     ],
     "patents" : [
         {
-            "title": "Method for augmenting surfaces in a space with visual content",
-            "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck"],
-            "pending": true
+            "title": "Method for augmenting a scene in real space with projected visual content",
+            "authors": ["Kevin Karsch", "Rajinder Sodhi", "Brett Jones", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny", "Ehsan Noursalehi", "Derek Nedelman", "Laura LaPerche", "Brittany Factura"],
+            "link": "https://patents.google.com/patent/US10373325B1",
+            "patentNumber": "US10373325B1"
         },
         {
             "title": "System and methods for augmenting surfaces within spaces with projected light",
             "authors": ["Rajinder Sodhi", "Brett Jones", "Kevin Karsch", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny"],
             "link": "https://patents.google.com/patent/US10805585B2",
             "patentNumber": "US10805585B2"
-        },
-        {
-            "title": "Method for augmenting a scene in real space with projected visual content",
-            "authors": ["Kevin Karsch", "Rajinder Sodhi", "Brett Jones", "Pulkit Budhiraja", "Phil Reyneri", "Douglas Rieck", "Andrew Kilkenny", "Ehsan Noursalehi", "Derek Nedelman", "Laura LaPerche", "Brittany Factura"],
-            "link": "https://patents.google.com/patent/US10373325B1",
-            "patentNumber": "US10373325B1"
         },
         {
             "title": "4D vizualization of building design and construction modeling with photographs",
@@ -544,27 +539,27 @@
     "funding": [
         {
             "name": "Projected augmented reality systems for large scale enterprise deployment",
-            "award": "NSF SBIR (Phase IIb)",
+            "award": "NSF, SBIR IIb",
             "years": "2019-2021"
         },
         {
             "name": "Automatic calibration and realignment of projection mapping systems",
-            "award": "NSF SBIR (Phase II-TECP)",
+            "award": "NSF, SBIR TECP",
             "years": "2017-2019"
         },
         {
             "name": "Reliable, scalable projection mapping systems with reusable content",
-            "award": "NSF SBIR (Phase II)",
+            "award": "NSF, SBIR II",
             "years": "2016-2018"
         },
         {
             "name": "Self-contained projection mapping systems",
-            "award": "NSF SBIR (Phase Ib)",
+            "award": "NSF, SBIR Ib",
             "years": "2015-2016"
         },
         {
             "name": "A unified system for low-cost, scalable projection mapping",
-            "award": "NSF SBIR (Phase I)",
+            "award": "NSF, SBIR I)",
             "years": "2015-2016"
         }
     ],
@@ -817,9 +812,10 @@
             "where": "University of Illinois Urbana-Champaign",
             "degree": "PhD in Computer Science",
             "years": "2009-2015",
+            "brief": "Learning methods to estimate lighting, materials and geometry from pictures and/or videos; one application is to use these estimates to realistically render objects for augmented/mixed reality.",
             "bullets": [
                 "Thesis: Inverse Rendering Techniques for Physically Grounded Image Editing",
-                "Topics: Computer Vision, Computer Graphics, Machine Learning, Numerical Optimization", 
+                "Internships: Adobe Research (Kalyan Sunkavalli, Sunil Hadap), MSR (Ce Liu, Sing Bing Kang)", 
                 "Advisors: David Forsyth, Derek Hoiem"
             ],
             "tag": "grad"
@@ -840,35 +836,26 @@
             "role": "Co-founder, CTO",
             "years": "2014-Present",
             "bullets": [
-                "{\\bf Company highlights}:",
+                "{\\it Management}",
                 [
-                    "Delivered multiple AR products from conception to shipping, including the first all-in-one AR projector",
-                    "Developed the most consumer-friendly projected AR software on the market today",
-                    "Patented novel research, including core company IP and a smart-home projection device",
-                    "Acquired 11,000+ customers in two years since Lightform's first hardware product release"
+                    "Invented, shipped and supported three generations of AR hardware, software and cloud products",
+                    "Managed the technical leaders of the company, including VP of Eng and four manager/lead direct reports",
+                    "Developed hiring processes to find high-potential, passionate employees, resulting in zero senior engineering leadership voluntary turnover, and 3.6\\%/year voluntary turnover overall"
                 ],
-                "As an {\\bf executive}, defined company vision, direction, and culture:",
+                "{\\it Leadership}",
                 [
-                    "Responsible for company technical decisions and deadlines",
-                    "Directed the development of Lightform's IP portfolio",
-                    "Voting member of the board of directors"
+                    "Worked with CEO to define, promote and achieve company vision of advancing ambient display technology",
+                    "Engaged with stakeholders, customers, and analytics to inform company strategy and product roadmaps",
+                    "Developed processes to communicate company goals and values to employees on a regular cadence"
                 ],
-                "As an {\\bf engineering manager}, supervised projects with various team sizes and experience levels:",
+                "{\\it R\\&D}",
                 [
-                    "Engaged regularly with customers, analytics and stakeholders to define and revise product roadmap",
-                    "Promoted exceptional team members into leadership roles for new product initiatives",
-                    "Shipped new products annually while maintaining legacy product compatibility for existing customers",
-                    "Installed processes and implemented scrum practices for iterative development"
+                    "Led \\href{https://lightform.com/lfx}{Project LFX}, a steerable, ambient display prototype",
+                    "Architected and managed the creation of the ``Lightform Scan'' algorithm that powers all Lightform devices",
+                    "Directed the development of Lightform's IP portfolio, resulting in 8 patents (3 granted to date)"
                 ],
-                "As a {\\bf research engineer}, developed and patented proprietary algorithms:",
+                "{\\it Software}",
                 [
-                    "A structured light technique using low-cost hardware, tolerant to harsh conditions",
-                    "Automatic alignment and re-alignment techniques for projected AR",
-                    "Negative space detection and automatic perspective warping for projection"
-                ],
-                "As a {\\bf software engineer}, contributed multi-platform production code in use by customers:",
-                [
-                    "Developed and maintained the application layer running on Lightform devices",
                     "Implemented graphics/UI/network components and infrastructure for Lightform desktop software",
                     "Regularly contributed features and patches across all Lightform products",
                     "Performed regular code reviews and mentored junior developers"
@@ -881,24 +868,14 @@
             "role": "Co-founder",
             "years": "2012-2014",
             "bullets": [
-                "Developed a mobile application for seamlessly inserting advertisements into images and video",
-                "Created a method for inserting 2D animations into existing video content"
-            ],
-            "tag": "grad"
-        },
-        {
-            "where": "Lumenco",
-            "role": "Computer Vision Engineer",
-            "years": "2012-2014",
-            "bullets": [
-                "Developed software for displaying glasses-free, 3D media via autostereoscopy",
-                "Created an algorithm to synthesize extreme viewpoints from stereo images and videos"
+                "Developed core IP for inserting advertisements into images and video without interrupting the viewer", 
+                "Implemented proof-of-concept subliminal advertisement social media application"
             ],
             "tag": "grad"
         },
         {
             "where": "Precision Augmented Reality Works",
-            "role": "Computer Vision Engineer",
+            "role": "Research Engineer",
             "years": "2013",
             "bullets": [
                 "Created software to detect changes in retail store displays for inventory management",
@@ -907,74 +884,20 @@
             "tag": "grad"
         },
         {
-            "where": "Adobe Research",
-            "role": "Intern",
-            "years": "2012",
+            "where": "Lumenco",
+            "role": "Research Engineer",
+            "years": "2012-2013",
             "bullets": [
-                "Published an image editing method for automatically inserting 3D models into pictures",
-                "Aspects of this work have been integrated into Adobe Dimension"
+                "Developed software for displaying glasses-free, 3D media via autostereoscopy",
+                "Created an algorithm to synthesize extreme viewpoints from stereo images and videos"
             ],
             "tag": "grad"
-        },
-        {
-            "where": "Microsoft Research",
-            "role": "Intern",
-            "years": "2011",
-            "bullets": [
-                "Published a single image depth estimation technique",
-                "Created a new-view synthesis algorithm for generating stereo images and accompanying dataset"
-            ],
-            "tag": "grad"
-        },
-        {
-            "where": "Naval Research Laboratory",
-            "role": "Intern",
-            "years": "2009",
-            "bullets": [
-                "Researched and implemented graphical representations for occluded objects in AR",
-                "Conducted user studies to determine which representation should be used in an AR system used by soldiers"
-            ],
-            "tag": "undergrad"
-        },
-        {
-            "where": "Reynolds Journalism Institute",
-            "role": "Software Engineer",
-            "years": "2008-2009",
-            "bullets": [
-                "Led a team of four students to implement a unique news-based iPhone application (Newsflash)",
-                "Newsflash App awarded \"People's Choice Award\" by Reynolds Institute's Futures Lab",
-                "Learned iOS development techniques from engineers at Apple Headquarters"
-            ],
-            "tag": "undergrad"
-        },
-        {
-            "where": "Department of Defense",
-            "role": "Intern",
-            "years": "2008",
-            "bullets": [
-                "Implemented a mesh segmentation algorithm using a modified form of mean-shift segmentation",
-                "Presented research at the Maneuver Support and Technology Conference",
-                "Developed automatic terrain visualization software"
-            ],
-            "tag": "undergrad"
-        },
-        {
-            "where": "Washington University",
-            "role": "Intern",
-            "years": "2007",
-            "bullets": [
-                "Researched methods to improve patient care by enhancing treatment software",
-                "Collaborated with graduate researchers to develop a treatment review system",
-                "Created an automated patient documentation system used daily by physicians"
-            ],
-            "tag": "undergrad"
         }
     ],
     "teaching" : [
         {
             "where": "University of Illinois",
             "role": "TA (Computational Photography)",
-            "years": "Spring 2012, Fall 2013",
             "bullets": [
                 "Lectured on image-based lighting, rendering methods, and 3D reconstruction",
                 "Developed, tested and graded course projects"
@@ -984,7 +907,6 @@
         {
             "where": "University of Illinois",
             "role": "Guest Lecturer",
-            "years": "2010-2015",
             "bullets": [
                 "Courses: Computer Graphics, Computer Vision, Computational Photography"
             ],
@@ -993,7 +915,6 @@
         {
             "where": "University of Missouri",
             "role": "TA (Computer Graphics)",
-            "years": "Spring 2009",
             "bullets": [
                 "Instructed classes of over 30 graduate and undergraduate students",
                 "Guided students to develop 3D simulations using OpenGL and QT"
@@ -1003,7 +924,6 @@
         {
             "where": "University of Missouri",
             "role": "Residential Advisor",
-            "years": "2006-2008",
             "bullets": [
                 "Instructed courses for incoming freshman",
                 "Provided academic and social advising to a diverse population of students"
@@ -1030,12 +950,7 @@
             "OpenGL/GLES",
             "Libav/FFmpeg",
             "PCL",
-            "Tensorflow"
-        ],
-        "languages": [
-            "C/C++ (11/14/17)",
-            "Python",
-            "Matlab"
+            "Tensorflow/PyTorch"
         ],
         "build": [
             "CMake",
@@ -1044,11 +959,12 @@
             "Yocto",
             "Jenkins"
         ],
-        "software": [
+        "tools": [
             "Git",
             "Jira",
             "Figma",
             "Adobe Ps/Ae/Ai/Dn",
+            "PlantUML",
             "Blender",
             "Unity"
         ],
