@@ -9,6 +9,10 @@
             "link": "./cv.pdf"
         },
         {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/kevinkarsch"
+        },
+        {
             "name": "google scholar",
             "link": "https://scholar.google.com/citations?user=_Y46BbYAAAAJ"
         },
@@ -27,10 +31,6 @@
         {
             "name": "github",
             "link": "https://github.com/kevinkarsch"
-        },
-        {
-            "name": "linkedin",
-            "link": "https://www.linkedin.com/in/kevinkarsch"
         }
     ],
     "authors" : [
@@ -832,27 +832,39 @@
     ],
     "experience": [
         {
+            "where": "Amazon Devices - Lab126",
+            "role": "Head of Software and Applied Science, New Products",
+            "years": "2021-Present",
+            "bullets": [
+                "Collaborated with senior VP leadership to conceive a new product category in smarthome AR", 
+                "Leading software and applied/research science teams to bring this product and future generations to market",
+                "Responsible for architecting the technical pieces of the product while considering budget, timeline, resourcing",
+                "Coordinating with teams across engineering, research, UX, finance, and leadership to determine optimal product specifications and customer experience"
+            ],
+            "tag": "lightform"
+        },
+        {
             "where": "Lightform",
             "role": "Co-founder, CTO",
-            "years": "2014-Present",
+            "years": "2014-2021",
             "bullets": [
                 "{\\it Management}",
                 [
-                    "Invented, shipped and supported three generations of AR hardware, software and cloud products",
-                    "Managed the technical leaders of the company, including VP of Eng and four manager/lead direct reports",
-                    "Developed hiring processes to find high-potential, passionate employees, resulting in zero senior engineering leadership voluntary turnover, and 3.6\\%/year voluntary turnover overall"
+                    "Invented, shipped and supported three generations of AR hardware, software and cloud products ($>$70 NPS)",
+                    "Managed the technical leaders of the company, including VP of Eng and 4 manager/lead direct reports",
+                    "Developed hiring processes to find high-potential, passionate employees, resulting in 0 senior engineering leadership voluntary turnover, and 3.6\\%/year voluntary turnover overall across 7 years"
                 ],
                 "{\\it Leadership}",
                 [
                     "Worked with CEO to define, promote and achieve company vision of advancing ambient display technology",
                     "Engaged with stakeholders, customers, and analytics to inform company strategy and product roadmaps",
-                    "Developed processes to communicate company goals and values to employees on a regular cadence"
+                    "Developed processes to communicate company goals and values to employees and stakeholders regularly"
                 ],
                 "{\\it R\\&D}",
                 [
                     "Led \\href{https://lightform.com/lfx}{Project LFX}, a steerable, ambient display prototype",
                     "Architected and managed the creation of the ``Lightform Scan'' algorithm that powers all Lightform devices",
-                    "Directed the development of Lightform's IP portfolio, resulting in 8 patents (3 granted to date)"
+                    "Directed the development of Lightform's IP portfolio, resulting in 8 patents"
                 ],
                 "{\\it Software}",
                 [
